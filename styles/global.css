@@ -25,3 +25,20 @@ img {
   max-width: 100%;
   display: block;
 }
+
+body {
+  background: url(/images/grenal.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+body:before {
+  content: '';
+  background-color: #00000052;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
