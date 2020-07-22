@@ -83,7 +83,7 @@ export default function Home() {
           <TableBody>
             {MOCK_DATA.map((match) => (
               <StyledTableRow key={`match__${match.id}`}>
-                <StyledTableCell>{match.number}</StyledTableCell>
+                <StyledTableCell>fd</StyledTableCell>
                 <StyledTableCell>{match.homeTeam}</StyledTableCell>
                 <StyledTableCell>{match.homeScore}</StyledTableCell>
                 <StyledTableCell>{match.awayScore}</StyledTableCell>
