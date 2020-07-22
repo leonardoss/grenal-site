@@ -2,22 +2,46 @@ import React from 'react';
 import App from 'next/app';
 import { ApolloProvider } from '@apollo/react-hooks';
 import withData from '../utils/apollo-client';
+
+import { ThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { createMuiTheme } from '@material-ui/core/styles';
+
+import orange from '@material-ui/core/colors/orange';
+
+import 'fontsource-roboto';
+const theme = createMuiTheme({
+  palette: {
+    default: {
+      main: orange[300],
+    },
+  },
+  typography: {
+    fontFamily: 'Roboto',
+    fontSize: 18,
+    h5: {
+      fontWeight: 700,
+    },
+  },
+});
+
 import '../styles/global.css';
 
-// export default function App({ Component, pageProps }) {
-//   return <Component {...pageProps} />;
-// }
+export const siteTitle = 'Grenal.site - Histórico, estatísticas, artilheiros';
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps, apollo } = this.props;
-    return (
+const MyApp = (props) => {
+  const { Component, pageProps, apollo } = props;
+
+  return (
+    <>
       <ApolloProvider client={apollo}>
-        <Component {...pageProps} />
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <Component {...pageProps} />
+        </ThemeProvider>
       </ApolloProvider>
-    );
-  }
-}
+    </>
+  );
+};
 
-// Wraps all components in the tree with the data provider
 export default withData(MyApp);
