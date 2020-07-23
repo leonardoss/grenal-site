@@ -12,8 +12,9 @@ import orange from '@material-ui/core/colors/orange';
 import 'fontsource-roboto';
 const theme = createMuiTheme({
   palette: {
-    default: {
-      main: orange[300],
+    primary: {
+      light: orange[300],
+      main: orange[700],
     },
   },
   typography: {
@@ -24,8 +25,6 @@ const theme = createMuiTheme({
     },
   },
 });
-
-import '../styles/global.css';
 
 export const siteTitle = 'Grenal.site - Histórico, estatísticas, artilheiros';
 

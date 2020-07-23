@@ -26,9 +26,7 @@ const useStyles = makeStyles((theme) =>
       flexDirection: 'column',
     },
     content: {
-      // flexGrow: 1,
-      // height: '100vh',
-      // overflow: 'auto',
+      paddingTop: 20,
     },
   })
 );
@@ -37,7 +35,7 @@ export default function Layout({ children, home }) {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <>
       <Head>
         <meta
           name="viewport"
@@ -60,7 +58,7 @@ export default function Layout({ children, home }) {
         </Toolbar>
       </AppBar>
       <main className={classes.content}>
-        <Container maxWidth="lg" className={classes.container}>
+        <Container maxWidth={false} className={classes.container}>
           <Grid container spacing={3}>
             <Grid item xs={12} md={8} lg={9}>
               <Paper className={classes.paper}>{children}</Paper>
@@ -71,6 +69,6 @@ export default function Layout({ children, home }) {
           </Grid>
         </Container>
       </main>
-    </div>
+    </>
   );
 }
