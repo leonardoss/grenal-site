@@ -49,40 +49,36 @@ const columns = [
     label: 'Data ',
     options: {
       filter: true,
+      filterType: 'multiselect',
       sort: true,
+      label: 'Década',
       filterOptions: {
-        names: ['2000', '2010', '2020'],
-        logic(date, filterVal, teste2) {
-          console.log('##### date', date, filterVal, teste2);
+        names: [
+          '1900',
+          '1910',
+          '1920',
+          '1930',
+          '1940',
+          '1950',
+          '1960',
+          '1970',
+          '1980',
+          '1990',
+          '2000',
+          '2010',
+          '2020',
+        ],
+        logic(date, filterVal) {
           const year = date.replace(/[0-9]{2}\/[0-9]{2}\/([0-9]{4})/g, '$1');
-          //   console.log('##### filterVal', filterVal);
-          //   console.log('##### date', date);
-          console.log(
-            '##### Math.floor(year / 10) * 10 === filterVal',
-            Math.floor(year / 10) * 10,
-            filterVal
-          );
-          const teste =
-            Math.floor(year / 10) * 10 === filterVal ? teste2 : 'CARALHO';
-          console.log('##### teste dpfd', teste);
+          const decade = Math.floor(year / 10) * 10;
 
-          return teste;
-          //   const show =
-          //     (filterVal.indexOf('Lower wages') >= 0 && date < 100000) ||
-          //     (filterVal.indexOf('Average wages') >= 0 &&
-          //       date >= 100000 &&
-          //       date < 200000) ||
-          //     (filterVal.indexOf('Higher wages') >= 0 && date >= 200000);
-          //   return !show;
+          if (filterVal.indexOf(decade.toString()) >= 0) {
+            return false;
+          } else {
+            return true;
+          }
         },
       },
-      //   filterList: ['Franky Miles', 'jose'],
-      //   customFilterListOptions: {
-      //     render: (v) => {
-      //       console.log('##### v', v);
-      //       return `Name: ${v}`;
-      //     },
-      //   },
       customBodyRender: (value) => moment(value).utc().format('DD/MM/YYYY'),
     },
   },
