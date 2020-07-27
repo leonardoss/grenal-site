@@ -14,7 +14,7 @@
 	"tournament": "Copa Libertadores da América",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 2,
 	"homeTeamId": 1,
@@ -65,7 +65,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 5,
 	"homeTeamId": 2,
@@ -82,7 +82,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 6,
 	"homeTeamId": 1,
@@ -99,7 +99,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 7,
 	"homeTeamId": 2,
@@ -150,7 +150,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 10,
 	"homeTeamId": 1,
@@ -218,7 +218,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 14,
 	"homeTeamId": 2,
@@ -235,7 +235,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 15,
 	"homeTeamId": 1,
@@ -269,7 +269,7 @@
 	"tournament": "Campeonato Gaúcho/Primeira Liga",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 17,
 	"homeTeamId": 1,
@@ -337,7 +337,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 21,
 	"homeTeamId": 1,
@@ -354,7 +354,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 22,
 	"homeTeamId": 2,
@@ -439,7 +439,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 27,
 	"homeTeamId": 1,
@@ -456,7 +456,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 28,
 	"homeTeamId": 2,
@@ -473,7 +473,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 29,
 	"homeTeamId": 1,
@@ -524,7 +524,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 32,
 	"homeTeamId": 1,
@@ -592,7 +592,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 36,
 	"homeTeamId": 1,
@@ -677,7 +677,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 41,
 	"homeTeamId": 2,
@@ -711,7 +711,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 43,
 	"homeTeamId": 1,
@@ -728,7 +728,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 44,
 	"homeTeamId": 2,
@@ -898,7 +898,7 @@
 	"tournament": "Copa Sul-Americana",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 54,
 	"homeTeamId": 1,
@@ -915,7 +915,7 @@
 	"tournament": "Copa Sul-Americana",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 55,
 	"homeTeamId": 2,
@@ -932,7 +932,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 56,
 	"homeTeamId": 2,
@@ -1000,7 +1000,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 60,
 	"homeTeamId": 1,
@@ -1017,7 +1017,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 61,
 	"homeTeamId": 2,
@@ -1034,7 +1034,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 62,
 	"homeTeamId": 2,
@@ -1153,7 +1153,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 69,
 	"homeTeamId": 1,
@@ -1187,7 +1187,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 71,
 	"homeTeamId": 1,
@@ -1255,7 +1255,7 @@
 	"tournament": "Copa Sul-Minas",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 75,
 	"homeTeamId": 2,
@@ -1289,7 +1289,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 77,
 	"homeTeamId": 2,
@@ -1357,7 +1357,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 81,
 	"homeTeamId": 1,
@@ -1374,7 +1374,7 @@
 	"tournament": "Seletiva Libertadores",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 82,
 	"homeTeamId": 2,
@@ -1391,7 +1391,7 @@
 	"tournament": "Seletiva Libertadores",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 83,
 	"homeTeamId": 2,
@@ -1493,7 +1493,7 @@
 	"tournament": "Copa Sul",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 89,
 	"homeTeamId": 1,
@@ -1561,7 +1561,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 93,
 	"homeTeamId": 2,
@@ -1578,7 +1578,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 94,
 	"homeTeamId": 1,
@@ -1612,7 +1612,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 96,
 	"homeTeamId": 1,
@@ -1663,7 +1663,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 99,
 	"homeTeamId": 2,
@@ -1731,7 +1731,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 103,
 	"homeTeamId": 1,
@@ -1765,7 +1765,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 105,
 	"homeTeamId": 1,
@@ -1799,7 +1799,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 107,
 	"homeTeamId": 2,
@@ -1833,7 +1833,7 @@
 	"tournament": "Copa do Brasil",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 109,
 	"homeTeamId": 2,
@@ -1850,7 +1850,7 @@
 	"tournament": "Copa do Brasil",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 110,
 	"homeTeamId": 1,
@@ -1867,7 +1867,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 111,
 	"homeTeamId": 2,
@@ -1884,7 +1884,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 112,
 	"homeTeamId": 1,
@@ -1901,7 +1901,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 113,
 	"homeTeamId": 2,
@@ -1935,7 +1935,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 115,
 	"homeTeamId": 1,
@@ -2003,7 +2003,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 119,
 	"homeTeamId": 1,
@@ -2122,7 +2122,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 126,
 	"homeTeamId": 1,
@@ -2156,7 +2156,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 128,
 	"homeTeamId": 1,
@@ -2190,7 +2190,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 130,
 	"homeTeamId": 2,
@@ -2224,7 +2224,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 132,
 	"homeTeamId": 1,
@@ -2241,7 +2241,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 133,
 	"homeTeamId": 2,
@@ -2326,7 +2326,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 138,
 	"homeTeamId": 2,
@@ -2343,7 +2343,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 139,
 	"homeTeamId": 2,
@@ -2377,7 +2377,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 141,
 	"homeTeamId": 2,
@@ -2445,7 +2445,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 145,
 	"homeTeamId": 2,
@@ -2479,7 +2479,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 147,
 	"homeTeamId": 2,
@@ -2598,7 +2598,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 154,
 	"homeTeamId": 1,
@@ -2683,7 +2683,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 159,
 	"homeTeamId": 2,
@@ -2700,7 +2700,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 160,
 	"homeTeamId": 1,
@@ -2717,7 +2717,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 161,
 	"homeTeamId": 2,
@@ -2785,7 +2785,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 165,
 	"homeTeamId": 1,
@@ -2819,7 +2819,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 167,
 	"homeTeamId": 1,
@@ -2853,7 +2853,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 169,
 	"homeTeamId": 2,
@@ -2870,7 +2870,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 170,
 	"homeTeamId": 1,
@@ -2887,7 +2887,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 171,
 	"homeTeamId": 2,
@@ -2904,7 +2904,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 172,
 	"homeTeamId": 1,
@@ -2938,7 +2938,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 174,
 	"homeTeamId": 1,
@@ -2972,7 +2972,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 176,
 	"homeTeamId": 1,
@@ -3006,7 +3006,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 178,
 	"homeTeamId": 1,
@@ -3023,7 +3023,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 179,
 	"homeTeamId": 2,
@@ -3057,7 +3057,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 181,
 	"homeTeamId": 2,
@@ -3074,7 +3074,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 182,
 	"homeTeamId": 1,
@@ -3108,7 +3108,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 184,
 	"homeTeamId": 1,
@@ -3142,7 +3142,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 186,
 	"homeTeamId": 1,
@@ -3278,7 +3278,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 194,
 	"homeTeamId": 2,
@@ -3380,7 +3380,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 200,
 	"homeTeamId": 1,
@@ -3465,7 +3465,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 205,
 	"homeTeamId": 1,
@@ -3499,7 +3499,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 207,
 	"homeTeamId": 1,
@@ -3618,7 +3618,7 @@
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 214,
 	"homeTeamId": 2,
@@ -3635,7 +3635,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 215,
 	"homeTeamId": 1,
@@ -3652,7 +3652,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 216,
 	"homeTeamId": 1,
@@ -3737,7 +3737,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 221,
 	"homeTeamId": 1,
@@ -3754,7 +3754,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 222,
 	"homeTeamId": 2,
@@ -3771,7 +3771,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 223,
 	"homeTeamId": 1,
@@ -3788,7 +3788,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 224,
 	"homeTeamId": 1,
@@ -3839,7 +3839,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 227,
 	"homeTeamId": 1,
@@ -3856,7 +3856,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 228,
 	"homeTeamId": 1,
@@ -3890,7 +3890,7 @@
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 230,
 	"homeTeamId": 2,
@@ -3924,7 +3924,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 232,
 	"homeTeamId": 2,
@@ -3941,7 +3941,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 233,
 	"homeTeamId": 1,
@@ -3958,7 +3958,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 234,
 	"homeTeamId": 1,
@@ -3992,7 +3992,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 236,
 	"homeTeamId": 1,
@@ -4009,7 +4009,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 237,
 	"homeTeamId": 2,
@@ -4026,7 +4026,7 @@
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 238,
 	"homeTeamId": 2,
@@ -4060,7 +4060,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 240,
 	"homeTeamId": 1,
@@ -4111,7 +4111,7 @@
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 243,
 	"homeTeamId": 2,
@@ -4128,7 +4128,7 @@
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 244,
 	"homeTeamId": 2,
@@ -4230,7 +4230,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 250,
 	"homeTeamId": 2,
@@ -4315,7 +4315,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 255,
 	"homeTeamId": 2,
@@ -4468,7 +4468,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 264,
 	"homeTeamId": 2,
@@ -4502,7 +4502,7 @@
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 266,
 	"homeTeamId": 1,
@@ -4536,7 +4536,7 @@
 	"tournament": "Copa Sul-Brasileira - Torneio da Legalidade",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 268,
 	"homeTeamId": 1,
@@ -4604,7 +4604,7 @@
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 272,
 	"homeTeamId": 1,
@@ -4723,7 +4723,7 @@
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 279,
 	"homeTeamId": 2,
@@ -4808,7 +4808,7 @@
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 284,
 	"homeTeamId": 1,
@@ -4910,7 +4910,7 @@
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 290,
 	"homeTeamId": 2,
@@ -5012,7 +5012,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 296,
 	"homeTeamId": 1,
@@ -5046,7 +5046,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 298,
 	"homeTeamId": 2,
@@ -5063,7 +5063,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 299,
 	"homeTeamId": 2,
@@ -5097,7 +5097,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 301,
 	"homeTeamId": 1,
@@ -5114,7 +5114,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 302,
 	"homeTeamId": 2,
@@ -5131,7 +5131,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 303,
 	"homeTeamId": 1,
@@ -5165,7 +5165,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 305,
 	"homeTeamId": 2,
@@ -5233,7 +5233,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 309,
 	"homeTeamId": 1,
@@ -5250,7 +5250,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 310,
 	"homeTeamId": 2,
@@ -5301,7 +5301,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 313,
 	"homeTeamId": 2,
@@ -5386,7 +5386,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 318,
 	"homeTeamId": 2,
@@ -5420,7 +5420,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 320,
 	"homeTeamId": 1,
@@ -5505,7 +5505,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 325,
 	"homeTeamId": 2,
@@ -5522,7 +5522,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 326,
 	"homeTeamId": 2,
@@ -5539,7 +5539,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 327,
 	"homeTeamId": 2,
@@ -5760,7 +5760,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 340,
 	"homeTeamId": 2,
@@ -5913,7 +5913,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 349,
 	"homeTeamId": 1,
@@ -5998,7 +5998,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 354,
 	"homeTeamId": 2,
@@ -6015,7 +6015,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 355,
 	"homeTeamId": 2,
@@ -6083,7 +6083,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 359,
 	"homeTeamId": 2,
@@ -6236,7 +6236,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 368,
 	"homeTeamId": 2,
@@ -6270,7 +6270,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 370,
 	"homeTeamId": 2,
@@ -6321,7 +6321,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 373,
 	"homeTeamId": 1,
@@ -6440,7 +6440,7 @@
 	"tournament": "Amistoso",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 380,
 	"homeTeamId": 2,
@@ -6474,7 +6474,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 382,
 	"homeTeamId": 2,
@@ -6661,7 +6661,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 393,
 	"homeTeamId": 2,
@@ -6763,7 +6763,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 399,
 	"homeTeamId": 1,
@@ -6865,7 +6865,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 405,
 	"homeTeamId": 2,
@@ -6882,7 +6882,7 @@
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
 	"info": "",
-	"winner": "DRAW"
+	"winner": "Empate"
 }, {
 	"id": 406,
 	"homeTeamId": 1,
