@@ -24,6 +24,13 @@ const theme = createMuiTheme({
       fontWeight: 700,
     },
   },
+  overrides: {
+    MUIDataTableBodyCell: {
+      root: {
+        '&:last-child': { padding: 0 },
+      },
+    },
+  },
 });
 
 export const siteTitle = 'Grenal.site - Histórico, estatísticas, artilheiros';

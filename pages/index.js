@@ -8,6 +8,11 @@ import MATCHES_QUERY from '../graphql/matches.query';
 
 import MOCK_DATA from '../mock/matches.json';
 
+const colors = {
+  gremio: '#4169e1',
+  internacional: '#f44336',
+};
+
 export default function Home() {
   const matches = MOCK_DATA;
 
@@ -29,7 +34,7 @@ export default function Home() {
         <title>{siteTitle} - title index</title>
       </Head>
 
-      <Matches matches={matches} />
+      <Matches matches={matches} colors={colors} />
     </Layout>
   );
 }
