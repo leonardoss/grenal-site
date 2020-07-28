@@ -25,9 +25,20 @@ const theme = createMuiTheme({
     },
   },
   overrides: {
+    MUIDataTable: {
+      paper: {
+        boxShadow: 'none',
+      },
+    },
+    MUIDataTableHeadCell: {
+      fixedHeader: {
+        backgroundColor: '#f9f9f9',
+      },
+    },
     MUIDataTableBodyCell: {
       root: {
         '&:last-child': { padding: 0 },
+        cursor: 'pointer',
       },
     },
   },

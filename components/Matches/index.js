@@ -1,9 +1,10 @@
 // export { default } from './EnhancedTable';
 import React from 'react';
 import MUIDataTable from 'mui-datatables';
+import Router from 'next/router';
 
 import moment from 'moment';
-import { replaceSpecialChars, hexToRgb } from '../../utils/utils';
+import { replaceSpecialChars } from '../../utils/utils';
 
 const Matches = (props) => {
   const { matches, colors } = props;
@@ -56,7 +57,6 @@ const Matches = (props) => {
         filter: true,
         filterType: 'multiselect',
         sort: true,
-        label: 'Década',
         filterOptions: {
           names: [
             '1900',
@@ -88,11 +88,29 @@ const Matches = (props) => {
       },
     },
     {
+      name: 'stadiumName',
+      label: 'Estádio',
+      options: {
+        filter: true,
+        sort: true,
+        filterType: 'multiselect',
+      },
+    },
+    {
+      name: 'tournament',
+      label: 'Torneio',
+      options: {
+        filter: true,
+        sort: true,
+        filterType: 'multiselect',
+      },
+    },
+    {
       name: 'winner',
       label: 'Vencedor',
       options: {
         filter: true,
-        sort: true,
+        sort: false,
         customBodyRender: (value) => (
           <div
             style={{
@@ -106,11 +124,50 @@ const Matches = (props) => {
       },
     },
   ];
+
   const options = {
     filterType: 'dropdown',
     download: false,
     print: false,
     selectableRows: 'none',
+    onRowClick: (rowData) => {
+      // console.log('##### clicou', rowData, rowMeta);
+      Router.push(`/match/${rowData[0]}`);
+    },
+    textLabels: {
+      body: {
+        noMatch: 'Sem resultado para exibir',
+        toolTip: 'Ordenar',
+        columnHeaderTooltip: (column) => `Ordenar por ${column.label}`,
+      },
+      pagination: {
+        next: 'Próxima página',
+        previous: 'Página anterior',
+        rowsPerPage: 'Jogos por página:',
+        displayRows: 'de',
+      },
+      toolbar: {
+        search: 'Buscar',
+        downloadCsv: 'Download CSV',
+        print: 'Imprimir',
+        viewColumns: 'Ver colunas',
+        filterTable: 'Filtrar tabela',
+      },
+      filter: {
+        all: 'Todos',
+        title: 'FILTROS',
+        reset: 'Limpar',
+      },
+      viewColumns: {
+        title: 'Ver colunas',
+        titleAria: 'Exibir/Esconder colunas',
+      },
+      selectedRows: {
+        text: 'linha(s) selecionadas',
+        delete: 'Delete',
+        deleteAria: 'Remover linhas selecionadas',
+      },
+    },
   };
 
   return (
