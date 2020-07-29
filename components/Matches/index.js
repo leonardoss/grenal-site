@@ -131,8 +131,7 @@ const Matches = (props) => {
     print: false,
     selectableRows: 'none',
     onRowClick: (rowData) => {
-      // console.log('##### clicou', rowData, rowMeta);
-      Router.push(`/match/${rowData[0]}`);
+      Router.push(`/jogos/${rowData[0]}`);
     },
     textLabels: {
       body: {

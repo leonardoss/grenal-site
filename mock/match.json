@@ -1,0 +1,17 @@
+{
+	"id": 3,
+	"homeTeamId": 2,
+	"homeTeam": "Grêmio",
+	"awayTeamId": 1,
+	"awayTeam": "Internacional",
+	"homeScore": 2,
+	"awayScore": 0,
+	"number": 422,
+	"date": "2019-11-02T23:00:00.000Z",
+	"stadiumId": 5,
+	"stadiumName": "Arena",
+	"tournamentId": 2,
+	"tournament": "Campeonato Brasileiro",
+	"link": "",
+	"info": ""
+}

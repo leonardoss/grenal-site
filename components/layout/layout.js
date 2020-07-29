@@ -34,6 +34,8 @@ const useStyles = makeStyles((theme) =>
 export default function Layout({ children, home }) {
   const classes = useStyles();
 
+  console.log('##### 3 - Layout ');
+
   return (
     <>
       <Head>
@@ -69,7 +71,7 @@ export default function Layout({ children, home }) {
               <Paper className={classes.paper}>{children}</Paper>
             </Grid>
             <Grid item xs={12} md={4} lg={3}>
-              <Paper className={classes.paper}>jose</Paper>
+              <Paper className={classes.paper}>right column</Paper>
             </Grid>
           </Grid>
         </Container>
