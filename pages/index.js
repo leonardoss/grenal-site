@@ -16,7 +16,7 @@ const colors = {
 export default function Home() {
   const matches = MOCK_DATA;
 
-  console.log('##### 2 - Home');
+  // console.log('##### 2 - Home');
 
   // const classes = useStyles();
   // Create a query hook

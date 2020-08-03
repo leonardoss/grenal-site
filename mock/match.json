@@ -1,17 +1,2 @@
-{
-	"id": 3,
-	"homeTeamId": 2,
-	"homeTeam": "Grêmio",
-	"awayTeamId": 1,
-	"awayTeam": "Internacional",
-	"homeScore": 2,
-	"awayScore": 0,
-	"number": 422,
-	"date": "2019-11-02T23:00:00.000Z",
-	"stadiumId": 5,
-	"stadiumName": "Arena",
-	"tournamentId": 2,
-	"tournament": "Campeonato Brasileiro",
-	"link": "",
-	"info": ""
-}
+
+{"id":12,"homeTeamId":1,"homeTeam":"Internacional","awayTeamId":2,"awayTeam":"Grêmio","homeScore":1,"awayScore":2,"number":413,"date":"2018-03-10T23:00:00.000Z","stadiumId":4,"stadiumName":"Beira-Rio","tournamentId":1,"tournament":"Campeonato Gaúcho","link":"","info":"Primeiro Grenal da história na Libertadores. Jogo terminou com 3 expulsões em cada time.","winner":"Grêmio"}

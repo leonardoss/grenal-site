@@ -1,4 +1,21 @@
 [{
+	"id": 425,
+	"homeTeamId": 1,
+	"homeTeam": "Internacional",
+	"awayTeamId": 2,
+	"awayTeam": "Grêmio",
+	"homeScore": 0,
+	"awayScore": 1,
+	"number": 425,
+	"date": "2020-07-21T22:00:00.000Z",
+	"stadiumId": 6,
+	"stadiumName": "Centenário",
+	"tournamentId": 1,
+	"tournament": "Campeonato Gaúcho",
+	"link": "",
+	"info": "Primeiro Grenal após a pandemia.\r\nJogo com portões fechados.",
+	"winner": "Grêmio"
+}, {
 	"id": 1,
 	"homeTeamId": 2,
 	"homeTeam": "Grêmio",
@@ -13,7 +30,7 @@
 	"tournamentId": 16,
 	"tournament": "Copa Libertadores da América",
 	"link": "",
-	"info": "",
+	"info": "Primeiro Grenal da história na Libertadores. Jogo terminou com 3 expulsões em cada time.",
 	"winner": "Empate"
 }, {
 	"id": 2,
@@ -30,7 +47,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Semifinal do primeiro turno.",
 	"winner": "Grêmio"
 }, {
 	"id": 3,
@@ -47,7 +64,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 4,
@@ -64,7 +81,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 5,
@@ -81,7 +98,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio 3x2 nos pênaltis",
 	"winner": "Empate"
 }, {
 	"id": 6,
@@ -98,7 +115,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro jogo da final.",
 	"winner": "Empate"
 }, {
 	"id": 7,
@@ -115,7 +132,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 8,
@@ -132,7 +149,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 9,
@@ -149,7 +166,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 10,
@@ -166,7 +183,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Resultado foi insuficiente para Inter avançar à semifinal do Campeonato Gaúcho.",
 	"winner": "Internacional"
 }, {
 	"id": 11,
@@ -183,7 +200,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 12,
@@ -200,7 +217,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 13,
@@ -217,7 +234,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 14,
@@ -234,7 +251,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 15,
@@ -251,7 +268,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 16,
@@ -268,7 +285,7 @@
 	"tournamentId": 3,
 	"tournament": "Campeonato Gaúcho/Primeira Liga",
 	"link": "",
-	"info": "",
+	"info": "Jogo foi válido por duas competições (Campeonato Gaúcho e Primeira Liga)",
 	"winner": "Empate"
 }, {
 	"id": 17,
@@ -285,7 +302,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 18,
@@ -302,7 +319,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 19,
@@ -319,7 +336,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter foi pentacampeão gaúcho depois de 42 anos.",
 	"winner": "Internacional"
 }, {
 	"id": 20,
@@ -336,7 +353,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro jogo da final do Campeonato Gaúcho.",
 	"winner": "Empate"
 }, {
 	"id": 21,
@@ -353,7 +370,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Gre-Nal da Paz, marcado pelo setor de torcida mista no estádio.",
 	"winner": "Empate"
 }, {
 	"id": 22,
@@ -370,7 +387,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Inter tem interrompida invencibilidade de dois anos no clássico.",
 	"winner": "Grêmio"
 }, {
 	"id": 23,
@@ -387,7 +404,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Primeiro clássico do novo Beira-Rio.",
 	"winner": "Internacional"
 }, {
 	"id": 24,
@@ -404,7 +421,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter conquistou o tetracampeonato gaúcho.",
 	"winner": "Internacional"
 }, {
 	"id": 25,
@@ -421,7 +438,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 26,
@@ -438,7 +455,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 27,
@@ -455,7 +472,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 28,
@@ -472,7 +489,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Primeiro Gre-Nal da história da Arena.",
 	"winner": "Empate"
 }, {
 	"id": 29,
@@ -489,7 +506,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Vitória classificou o Inter à semifinal da Taça Piratini (1 turno do Campeonato Gaúcho).",
 	"winner": "Internacional"
 }, {
 	"id": 30,
@@ -506,7 +523,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Estreia de Dunga como técnico em um Gre-Nal.",
 	"winner": "Internacional"
 }, {
 	"id": 31,
@@ -523,7 +540,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Último jogo da história do Olímpico.",
 	"winner": "Empate"
 }, {
 	"id": 32,
@@ -540,7 +557,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 33,
@@ -557,7 +574,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter conquista título da Taça Farroupilha (2º turno).",
 	"winner": "Internacional"
 }, {
 	"id": 34,
@@ -574,7 +591,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 35,
@@ -591,7 +608,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "O Inter atuou com seu time reserva em função da disputa da Libertadores.",
 	"winner": "Empate"
 }, {
 	"id": 36,
@@ -608,7 +625,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Vitória garantiu a classificação à Pré-Libertadores de 2012.",
 	"winner": "Internacional"
 }, {
 	"id": 37,
@@ -625,7 +642,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 38,
@@ -642,7 +659,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter 5x4 nos pênaltis. Inter volta a erguer a taça estadual no Olímpico após 29 anos.",
 	"winner": "Internacional"
 }, {
 	"id": 39,
@@ -659,7 +676,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro jogo da final do Campeonato Gaúcho 2011",
 	"winner": "Grêmio"
 }, {
 	"id": 40,
@@ -676,7 +693,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter 4x2 nos pênaltis. Clássico decidiu o título da Taça Farroupilha (2º turno do Campeonato Gaúcho)",
 	"winner": "Empate"
 }, {
 	"id": 41,
@@ -693,7 +710,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro clássico realizado fora do Brasil.",
 	"winner": "Grêmio"
 }, {
 	"id": 42,
@@ -710,7 +727,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Último clássico do árbitro Carlos Simon.",
 	"winner": "Empate"
 }, {
 	"id": 43,
@@ -727,7 +744,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 44,
@@ -744,7 +761,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Clássico decidiu o título do Campeonato Gaúcho, com o Grêmio sangrando-se campeão após dois anos consecutivos de conquistas do Inter.",
 	"winner": "Internacional"
 }, {
 	"id": 45,
@@ -761,7 +778,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro clássico da decisão do título.",
 	"winner": "Grêmio"
 }, {
 	"id": 46,
@@ -778,7 +795,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Foi o primeiro Gre-Nal da temporada 2010.",
 	"winner": "Internacional"
 }, {
 	"id": 47,
@@ -795,7 +812,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Foi a quarta vitória colorada em cinco clássicos disputados em 2009.",
 	"winner": "Internacional"
 }, {
 	"id": 48,
@@ -812,7 +829,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "A vitória quebrou uma invencibilidade de 7 jogos do Inter.",
 	"winner": "Grêmio"
 }, {
 	"id": 49,
@@ -829,7 +846,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro Gre-Nal após a comemoração do Centenário.",
 	"winner": "Internacional"
 }, {
 	"id": 50,
@@ -846,7 +863,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "A vitória garantiu a conquista da Taça Fernando Carvalho, equivalente ao primeiro turno do Campeonato Gaúcho.",
 	"winner": "Internacional"
 }, {
 	"id": 51,
@@ -863,7 +880,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Primeiro clássico no ano do Centenário.",
 	"winner": "Internacional"
 }, {
 	"id": 52,
@@ -880,7 +897,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Vitória colorado tira o Grêmio da liderança do campeonato. É a primeira vez na história do Beira-Rio que o Inter faz quatro gols no clássico.",
 	"winner": "Internacional"
 }, {
 	"id": 53,
@@ -897,7 +914,7 @@
 	"tournamentId": 4,
 	"tournament": "Copa Sul-Americana",
 	"link": "",
-	"info": "",
+	"info": "Inter garantiu a classificação à fase seguinte da competição.",
 	"winner": "Empate"
 }, {
 	"id": 54,
@@ -914,7 +931,7 @@
 	"tournamentId": 4,
 	"tournament": "Copa Sul-Americana",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 55,
@@ -931,7 +948,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 56,
@@ -948,7 +965,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 57,
@@ -965,7 +982,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Inter perde o clássico depois de três anos.",
 	"winner": "Grêmio"
 }, {
 	"id": 58,
@@ -982,7 +999,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Último clássico antes da disputa do Mundial Interclubes no Japão.",
 	"winner": "Internacional"
 }, {
 	"id": 59,
@@ -999,7 +1016,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 60,
@@ -1016,7 +1033,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio campeão 2006",
 	"winner": "Empate"
 }, {
 	"id": 61,
@@ -1033,7 +1050,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 62,
@@ -1050,7 +1067,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Inter iguala 1947 com cinco vitórias em uma mesma temporada.",
 	"winner": "Internacional"
 }, {
 	"id": 63,
@@ -1067,7 +1084,7 @@
 	"tournamentId": 4,
 	"tournament": "Copa Sul-Americana",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 64,
@@ -1084,7 +1101,7 @@
 	"tournamentId": 4,
 	"tournament": "Copa Sul-Americana",
 	"link": "",
-	"info": "",
+	"info": "Primeiro Gre-Nal em competição Internacional",
 	"winner": "Internacional"
 }, {
 	"id": 65,
@@ -1101,7 +1118,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Gre-Nal do Gol 1.000 de Fernandão",
 	"winner": "Internacional"
 }, {
 	"id": 66,
@@ -1118,7 +1135,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Taça Bento Gonçalves - inauguração do novo estádio do Esportivo - 95 anos Internacional - Gol de Nilmar na prorrogação",
 	"winner": "Internacional"
 }, {
 	"id": 67,
@@ -1135,7 +1152,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 68,
@@ -1152,7 +1169,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 69,
@@ -1169,7 +1186,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 70,
@@ -1186,7 +1203,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 71,
@@ -1203,7 +1220,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Estréia de Christian no Grêmio",
 	"winner": "Internacional"
 }, {
 	"id": 72,
@@ -1220,7 +1237,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 73,
@@ -1237,7 +1254,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 74,
@@ -1254,7 +1271,7 @@
 	"tournamentId": 5,
 	"tournament": "Copa Sul-Minas",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 75,
@@ -1271,7 +1288,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 76,
@@ -1288,7 +1305,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 77,
@@ -1305,7 +1322,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 78,
@@ -1322,7 +1339,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 79,
@@ -1339,7 +1356,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 80,
@@ -1356,7 +1373,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 81,
@@ -1373,7 +1390,7 @@
 	"tournamentId": 6,
 	"tournament": "Seletiva Libertadores",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 82,
@@ -1390,7 +1407,7 @@
 	"tournamentId": 6,
 	"tournament": "Seletiva Libertadores",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 83,
@@ -1407,7 +1424,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 84,
@@ -1424,7 +1441,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio campeão 1999",
 	"winner": "Grêmio"
 }, {
 	"id": 85,
@@ -1441,7 +1458,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 86,
@@ -1458,7 +1475,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 87,
@@ -1475,7 +1492,7 @@
 	"tournamentId": 7,
 	"tournament": "Copa Sul",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 88,
@@ -1492,7 +1509,7 @@
 	"tournamentId": 7,
 	"tournament": "Copa Sul",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 89,
@@ -1509,7 +1526,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 90,
@@ -1526,7 +1543,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Gre-Nal dos 5x2",
 	"winner": "Internacional"
 }, {
 	"id": 91,
@@ -1543,7 +1560,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter campeão 1997",
 	"winner": "Internacional"
 }, {
 	"id": 92,
@@ -1560,7 +1577,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 93,
@@ -1577,7 +1594,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 94,
@@ -1594,7 +1611,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 95,
@@ -1611,7 +1628,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 96,
@@ -1628,7 +1645,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 97,
@@ -1645,7 +1662,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio campeão 1995",
 	"winner": "Grêmio"
 }, {
 	"id": 98,
@@ -1662,7 +1679,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 99,
@@ -1679,7 +1696,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 100,
@@ -1696,7 +1713,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 101,
@@ -1713,7 +1730,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Copa ZH 30 anos",
 	"winner": "Internacional"
 }, {
 	"id": 102,
@@ -1730,7 +1747,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 103,
@@ -1747,7 +1764,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 104,
@@ -1764,7 +1781,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 105,
@@ -1781,7 +1798,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 106,
@@ -1798,7 +1815,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter bicampeão 1992",
 	"winner": "Empate"
 }, {
 	"id": 107,
@@ -1815,7 +1832,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 108,
@@ -1832,7 +1849,7 @@
 	"tournamentId": 8,
 	"tournament": "Copa do Brasil",
 	"link": "",
-	"info": "",
+	"info": "Inter 3x0 - penaltis - Quartas de final Copa do Brasil",
 	"winner": "Empate"
 }, {
 	"id": 109,
@@ -1849,7 +1866,7 @@
 	"tournamentId": 8,
 	"tournament": "Copa do Brasil",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 110,
@@ -1866,7 +1883,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 111,
@@ -1883,7 +1900,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 112,
@@ -1900,7 +1917,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 113,
@@ -1917,7 +1934,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 114,
@@ -1934,7 +1951,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter campeão 1991",
 	"winner": "Empate"
 }, {
 	"id": 115,
@@ -1951,7 +1968,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 116,
@@ -1968,7 +1985,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 117,
@@ -1985,7 +2002,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 118,
@@ -2002,7 +2019,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 119,
@@ -2019,7 +2036,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 120,
@@ -2036,7 +2053,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio hexacampeão 1990",
 	"winner": "Grêmio"
 }, {
 	"id": 121,
@@ -2053,7 +2070,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 122,
@@ -2070,7 +2087,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 123,
@@ -2087,7 +2104,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 124,
@@ -2104,7 +2121,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 125,
@@ -2121,7 +2138,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio 4x3 - pênaltis",
 	"winner": "Empate"
 }, {
 	"id": 126,
@@ -2138,7 +2155,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 127,
@@ -2155,7 +2172,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 128,
@@ -2172,7 +2189,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Gre-Nal do século - Semifinal Campeonato Brasileiro 1988",
 	"winner": "Internacional"
 }, {
 	"id": 129,
@@ -2189,7 +2206,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 130,
@@ -2206,7 +2223,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 131,
@@ -2223,7 +2240,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 132,
@@ -2240,7 +2257,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 133,
@@ -2257,7 +2274,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 134,
@@ -2274,7 +2291,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 135,
@@ -2291,7 +2308,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 136,
@@ -2308,7 +2325,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio tricampeão 1987",
 	"winner": "Grêmio"
 }, {
 	"id": 137,
@@ -2325,7 +2342,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 138,
@@ -2342,7 +2359,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter 3x2 - penaltis",
 	"winner": "Empate"
 }, {
 	"id": 139,
@@ -2359,7 +2376,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 140,
@@ -2376,7 +2393,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 141,
@@ -2393,7 +2410,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 142,
@@ -2410,7 +2427,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 143,
@@ -2427,7 +2444,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 144,
@@ -2444,7 +2461,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 145,
@@ -2461,7 +2478,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio bicampeão 1986",
 	"winner": "Grêmio"
 }, {
 	"id": 146,
@@ -2478,7 +2495,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 147,
@@ -2495,7 +2512,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 148,
@@ -2512,7 +2529,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 149,
@@ -2529,7 +2546,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio campeão 1985",
 	"winner": "Grêmio"
 }, {
 	"id": 150,
@@ -2546,7 +2563,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 151,
@@ -2563,7 +2580,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 152,
@@ -2580,7 +2597,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 153,
@@ -2597,7 +2614,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 154,
@@ -2614,7 +2631,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 155,
@@ -2631,7 +2648,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 156,
@@ -2648,7 +2665,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 157,
@@ -2665,7 +2682,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 158,
@@ -2682,7 +2699,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 159,
@@ -2699,7 +2716,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 160,
@@ -2716,7 +2733,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 161,
@@ -2733,7 +2750,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 162,
@@ -2750,7 +2767,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter bicampeão 1982",
 	"winner": "Internacional"
 }, {
 	"id": 163,
@@ -2767,7 +2784,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 164,
@@ -2784,7 +2801,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 165,
@@ -2801,7 +2818,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 166,
@@ -2818,7 +2835,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter campeão 1981",
 	"winner": "Empate"
 }, {
 	"id": 167,
@@ -2835,7 +2852,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 168,
@@ -2852,7 +2869,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 169,
@@ -2869,7 +2886,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 170,
@@ -2886,7 +2903,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio bicampeão 1980",
 	"winner": "Empate"
 }, {
 	"id": 171,
@@ -2903,7 +2920,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 172,
@@ -2920,7 +2937,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 173,
@@ -2937,7 +2954,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 174,
@@ -2954,7 +2971,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 175,
@@ -2971,7 +2988,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 176,
@@ -2988,7 +3005,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 177,
@@ -3005,7 +3022,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 178,
@@ -3022,7 +3039,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 179,
@@ -3039,7 +3056,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter campeão 1978",
 	"winner": "Internacional"
 }, {
 	"id": 180,
@@ -3056,7 +3073,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 181,
@@ -3073,7 +3090,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 182,
@@ -3090,7 +3107,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 183,
@@ -3107,7 +3124,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 184,
@@ -3124,7 +3141,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 185,
@@ -3141,7 +3158,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 186,
@@ -3158,7 +3175,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 187,
@@ -3175,7 +3192,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 188,
@@ -3192,7 +3209,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 189,
@@ -3209,7 +3226,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 190,
@@ -3226,7 +3243,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Gremio campeão 1977",
 	"winner": "Grêmio"
 }, {
 	"id": 191,
@@ -3243,7 +3260,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 192,
@@ -3260,7 +3277,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "O gol mais rápido - Iúra aos 14 segundos",
 	"winner": "Grêmio"
 }, {
 	"id": 193,
@@ -3277,7 +3294,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 194,
@@ -3294,7 +3311,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 195,
@@ -3311,7 +3328,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 196,
@@ -3328,7 +3345,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Volta de Alcindo",
 	"winner": "Grêmio"
 }, {
 	"id": 197,
@@ -3345,7 +3362,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 198,
@@ -3362,7 +3379,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter octacampeão 1976",
 	"winner": "Internacional"
 }, {
 	"id": 199,
@@ -3379,7 +3396,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 200,
@@ -3396,7 +3413,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 201,
@@ -3413,7 +3430,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 202,
@@ -3430,7 +3447,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "73.219 pagantes",
 	"winner": "Internacional"
 }, {
 	"id": 203,
@@ -3447,7 +3464,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 204,
@@ -3464,7 +3481,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 205,
@@ -3481,7 +3498,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter heptacampeão 1975 - gol de Flávio na prorrogação",
 	"winner": "Internacional"
 }, {
 	"id": 206,
@@ -3498,7 +3515,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 207,
@@ -3515,7 +3532,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 208,
@@ -3532,7 +3549,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 209,
@@ -3549,7 +3566,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 210,
@@ -3566,7 +3583,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter hexacampeão 1974",
 	"winner": "Internacional"
 }, {
 	"id": 211,
@@ -3583,7 +3600,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 212,
@@ -3600,7 +3617,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "Estréia de Lula",
 	"winner": "Internacional"
 }, {
 	"id": 213,
@@ -3617,7 +3634,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 214,
@@ -3634,7 +3651,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 215,
@@ -3651,7 +3668,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 216,
@@ -3668,7 +3685,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 217,
@@ -3685,7 +3702,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 218,
@@ -3702,7 +3719,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 219,
@@ -3719,7 +3736,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 220,
@@ -3736,7 +3753,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 221,
@@ -3753,7 +3770,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Inter 5x4 - penaltis - 200 anos de Porto Alegre",
 	"winner": "Empate"
 }, {
 	"id": 222,
@@ -3770,7 +3787,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 223,
@@ -3787,7 +3804,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Estréia de Volmir no Inter",
 	"winner": "Empate"
 }, {
 	"id": 224,
@@ -3804,7 +3821,7 @@
 	"tournamentId": 2,
 	"tournament": "Campeonato Brasileiro",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 225,
@@ -3821,7 +3838,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 226,
@@ -3838,7 +3855,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 227,
@@ -3855,7 +3872,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 228,
@@ -3872,7 +3889,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Internacional",
 	"winner": "Grêmio"
 }, {
 	"id": 229,
@@ -3889,7 +3906,7 @@
 	"tournamentId": 11,
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 230,
@@ -3906,7 +3923,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 231,
@@ -3923,7 +3940,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 232,
@@ -3940,7 +3957,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Re-Inauguração dos refletores do Olímpico",
 	"winner": "Empate"
 }, {
 	"id": 233,
@@ -3957,7 +3974,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Inter campeão 1969 - Ibsen Pinheiro invadiu o gramado para reclamar do juiz",
 	"winner": "Empate"
 }, {
 	"id": 234,
@@ -3974,7 +3991,7 @@
 	"tournamentId": 11,
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 235,
@@ -3991,7 +4008,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 236,
@@ -4008,7 +4025,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "1o. Gre-Nal Beira-Rio, grande briga e diversas expulsões",
 	"winner": "Empate"
 }, {
 	"id": 237,
@@ -4025,7 +4042,7 @@
 	"tournamentId": 11,
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 238,
@@ -4042,7 +4059,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 239,
@@ -4059,7 +4076,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Último Gre-Nal Eucaliptos",
 	"winner": "Empate"
 }, {
 	"id": 240,
@@ -4076,7 +4093,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 241,
@@ -4093,7 +4110,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 242,
@@ -4110,7 +4127,7 @@
 	"tournamentId": 11,
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 243,
@@ -4127,7 +4144,7 @@
 	"tournamentId": 11,
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 244,
@@ -4144,7 +4161,7 @@
 	"tournamentId": 11,
 	"tournament": "Roberto Gomes Pedrosa",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 245,
@@ -4161,7 +4178,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 246,
@@ -4178,7 +4195,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 247,
@@ -4195,7 +4212,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 248,
@@ -4212,7 +4229,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 249,
@@ -4229,7 +4246,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Copa Festa da Uva",
 	"winner": "Empate"
 }, {
 	"id": 250,
@@ -4246,7 +4263,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 251,
@@ -4263,7 +4280,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Quadrangular",
 	"winner": "Internacional"
 }, {
 	"id": 252,
@@ -4280,7 +4297,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio tricampeão 1964",
 	"winner": "Grêmio"
 }, {
 	"id": 253,
@@ -4297,7 +4314,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Dia do Cronista",
 	"winner": "Internacional"
 }, {
 	"id": 254,
@@ -4314,7 +4331,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 255,
@@ -4331,7 +4348,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 256,
@@ -4348,7 +4365,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 257,
@@ -4365,7 +4382,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 258,
@@ -4382,7 +4399,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 259,
@@ -4399,7 +4416,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 260,
@@ -4416,7 +4433,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 261,
@@ -4433,7 +4450,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "Grêmio campeão 1962",
 	"winner": "Grêmio"
 }, {
 	"id": 262,
@@ -4450,7 +4467,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 263,
@@ -4467,7 +4484,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Dia do Cronista",
 	"winner": "Empate"
 }, {
 	"id": 264,
@@ -4484,7 +4501,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Taça Ipiranga - Primeiro Gre-Nal fora de Porto Alegre",
 	"winner": "Grêmio"
 }, {
 	"id": 265,
@@ -4501,7 +4518,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 266,
@@ -4518,7 +4535,7 @@
 	"tournamentId": 12,
 	"tournament": "Copa Sul-Brasileira - Torneio da Legalidade",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 267,
@@ -4535,7 +4552,7 @@
 	"tournamentId": 12,
 	"tournament": "Copa Sul-Brasileira - Torneio da Legalidade",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 268,
@@ -4552,7 +4569,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 269,
@@ -4569,7 +4586,7 @@
 	"tournamentId": 1,
 	"tournament": "Campeonato Gaúcho",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 270,
@@ -4586,7 +4603,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 271,
@@ -4603,7 +4620,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 272,
@@ -4620,7 +4637,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 273,
@@ -4637,7 +4654,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Inauguração de Brasilia",
 	"winner": "Grêmio"
 }, {
 	"id": 274,
@@ -4654,7 +4671,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 275,
@@ -4671,7 +4688,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 276,
@@ -4688,7 +4705,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 277,
@@ -4705,7 +4722,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "50 anos do Inter",
 	"winner": "Grêmio"
 }, {
 	"id": 278,
@@ -4722,7 +4739,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 279,
@@ -4739,7 +4756,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 280,
@@ -4756,7 +4773,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 281,
@@ -4773,7 +4790,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 282,
@@ -4790,7 +4807,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 283,
@@ -4807,7 +4824,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 284,
@@ -4824,7 +4841,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 285,
@@ -4841,7 +4858,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "Público: 36.059",
 	"winner": "Grêmio"
 }, {
 	"id": 286,
@@ -4858,7 +4875,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "Inter campeão 1955",
 	"winner": "Internacional"
 }, {
 	"id": 287,
@@ -4875,7 +4892,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 288,
@@ -4892,7 +4909,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 289,
@@ -4909,7 +4926,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 290,
@@ -4926,7 +4943,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Inauguração Olímpico",
 	"winner": "Internacional"
 }, {
 	"id": 291,
@@ -4943,7 +4960,7 @@
 	"tournamentId": 13,
 	"tournament": "Citadino Porto Alegre - Divisão de Honra",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 292,
@@ -4960,7 +4977,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Estréia de Larry",
 	"winner": "Internacional"
 }, {
 	"id": 293,
@@ -4977,7 +4994,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 294,
@@ -4994,7 +5011,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 295,
@@ -5011,7 +5028,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 296,
@@ -5028,7 +5045,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 297,
@@ -5045,7 +5062,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 298,
@@ -5062,7 +5079,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 299,
@@ -5079,7 +5096,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Estréia de Tesourinha no Grêmio",
 	"winner": "Grêmio"
 }, {
 	"id": 300,
@@ -5096,7 +5113,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 301,
@@ -5113,7 +5130,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 302,
@@ -5130,7 +5147,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 303,
@@ -5147,7 +5164,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 304,
@@ -5164,7 +5181,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Último clássico de Carlitos",
 	"winner": "Empate"
 }, {
 	"id": 305,
@@ -5181,7 +5198,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 306,
@@ -5198,7 +5215,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 307,
@@ -5215,7 +5232,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 308,
@@ -5232,7 +5249,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 309,
@@ -5249,7 +5266,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 310,
@@ -5266,7 +5283,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Extra",
 	"winner": "Internacional"
 }, {
 	"id": 311,
@@ -5283,7 +5300,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 312,
@@ -5300,7 +5317,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 313,
@@ -5317,7 +5334,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 314,
@@ -5334,7 +5351,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 315,
@@ -5351,7 +5368,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Despedida de Tesourinha",
 	"winner": "Grêmio"
 }, {
 	"id": 316,
@@ -5368,7 +5385,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Dia do Foot-ball",
 	"winner": "Internacional"
 }, {
 	"id": 317,
@@ -5385,7 +5402,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 318,
@@ -5402,7 +5419,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 319,
@@ -5419,7 +5436,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 320,
@@ -5436,7 +5453,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Associação dos Cronistas Esportivos - Taça Porto Alegre",
 	"winner": "Internacional"
 }, {
 	"id": 321,
@@ -5453,7 +5470,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Maior goleada do Inter",
 	"winner": "Internacional"
 }, {
 	"id": 322,
@@ -5470,7 +5487,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 323,
@@ -5487,7 +5504,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 324,
@@ -5504,7 +5521,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 325,
@@ -5521,7 +5538,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "1o. Gre-Nal 0x0",
 	"winner": "Empate"
 }, {
 	"id": 326,
@@ -5538,7 +5555,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 327,
@@ -5555,7 +5572,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 328,
@@ -5572,7 +5589,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 329,
@@ -5589,7 +5606,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 330,
@@ -5606,7 +5623,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 331,
@@ -5623,7 +5640,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Extra",
 	"winner": "Internacional"
 }, {
 	"id": 332,
@@ -5640,7 +5657,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 333,
@@ -5657,7 +5674,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 334,
@@ -5674,7 +5691,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 335,
@@ -5691,7 +5708,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 336,
@@ -5708,7 +5725,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Inter ultrapassa Grêmio em vitórias",
 	"winner": "Internacional"
 }, {
 	"id": 337,
@@ -5725,7 +5742,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Inter ultrapassa Grêmio em gols",
 	"winner": "Internacional"
 }, {
 	"id": 338,
@@ -5742,7 +5759,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 339,
@@ -5759,7 +5776,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 340,
@@ -5776,7 +5793,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 341,
@@ -5793,7 +5810,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Inter pentacampeão citadino 1944",
 	"winner": "Internacional"
 }, {
 	"id": 342,
@@ -5810,7 +5827,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 343,
@@ -5827,7 +5844,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Inauguração nova bandeira do Grêmio",
 	"winner": "Internacional"
 }, {
 	"id": 344,
@@ -5844,7 +5861,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 345,
@@ -5861,7 +5878,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 346,
@@ -5878,7 +5895,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 347,
@@ -5895,7 +5912,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 348,
@@ -5912,7 +5929,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 349,
@@ -5929,7 +5946,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Triangular",
 	"winner": "Internacional"
 }, {
 	"id": 350,
@@ -5946,7 +5963,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Triangular",
 	"winner": "Internacional"
 }, {
 	"id": 351,
@@ -5963,7 +5980,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 352,
@@ -5980,7 +5997,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 353,
@@ -5997,7 +6014,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 354,
@@ -6014,7 +6031,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 355,
@@ -6031,7 +6048,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 356,
@@ -6048,7 +6065,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 357,
@@ -6065,7 +6082,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 358,
@@ -6082,7 +6099,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 359,
@@ -6099,7 +6116,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 360,
@@ -6116,7 +6133,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 361,
@@ -6133,7 +6150,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 362,
@@ -6150,7 +6167,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 363,
@@ -6167,7 +6184,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 364,
@@ -6184,7 +6201,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 365,
@@ -6201,7 +6218,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 366,
@@ -6218,7 +6235,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 367,
@@ -6235,7 +6252,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 368,
@@ -6252,7 +6269,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 369,
@@ -6269,7 +6286,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 370,
@@ -6286,7 +6303,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Taça Martel - 5 gols anulados do Inter - 2a. despedida de Luiz Carvalho",
 	"winner": "Internacional"
 }, {
 	"id": 371,
@@ -6303,7 +6320,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 372,
@@ -6320,7 +6337,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Taça Martel - Estréia de Carlitos",
 	"winner": "Empate"
 }, {
 	"id": 373,
@@ -6337,7 +6354,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 374,
@@ -6354,7 +6371,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 375,
@@ -6371,7 +6388,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 376,
@@ -6388,7 +6405,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 377,
@@ -6405,7 +6422,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 378,
@@ -6422,7 +6439,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 379,
@@ -6439,7 +6456,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 380,
@@ -6456,7 +6473,7 @@
 	"tournamentId": 14,
 	"tournament": "Citadino Porto Alegre - Campeonato Farroupilha",
 	"link": "",
-	"info": "",
+	"info": "Gre-Nal Farroupilha - Grêmio campeão citadino 1935 - Último jogo de Lara",
 	"winner": "Grêmio"
 }, {
 	"id": 381,
@@ -6473,7 +6490,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Gol do Avião",
 	"winner": "Empate"
 }, {
 	"id": 382,
@@ -6490,7 +6507,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "1a. despedida de Luiz Carvalho",
 	"winner": "Internacional"
 }, {
 	"id": 383,
@@ -6507,7 +6524,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 384,
@@ -6524,7 +6541,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 385,
@@ -6541,7 +6558,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 386,
@@ -6558,7 +6575,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 387,
@@ -6575,7 +6592,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 388,
@@ -6592,7 +6609,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 389,
@@ -6609,7 +6626,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Inauguração dos refletores - primeiro jogo noturno",
 	"winner": "Grêmio"
 }, {
 	"id": 390,
@@ -6626,7 +6643,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 391,
@@ -6643,7 +6660,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Inauguração Eucaliptos",
 	"winner": "Internacional"
 }, {
 	"id": 392,
@@ -6660,7 +6677,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 393,
@@ -6677,7 +6694,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 394,
@@ -6694,7 +6711,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 395,
@@ -6711,7 +6728,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 396,
@@ -6728,7 +6745,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Torneio Reinvidicação",
 	"winner": "Grêmio"
 }, {
 	"id": 397,
@@ -6745,7 +6762,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 398,
@@ -6762,7 +6779,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 399,
@@ -6779,7 +6796,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 400,
@@ -6796,7 +6813,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 401,
@@ -6813,7 +6830,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 402,
@@ -6830,7 +6847,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 403,
@@ -6847,7 +6864,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Criação do nome Gre-Nal por Ivo dos Santos Martins - jogo acabou 10 min. antes após agressão de torcedor colorado no árbitro e briga entre torcedores e Brigada",
 	"winner": "Grêmio"
 }, {
 	"id": 404,
@@ -6864,7 +6881,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Empate"
 }, {
 	"id": 405,
@@ -6881,7 +6898,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "1o. empate - centésimo gol",
 	"winner": "Empate"
 }, {
 	"id": 406,
@@ -6898,7 +6915,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 407,
@@ -6915,7 +6932,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 408,
@@ -6932,7 +6949,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "Amistoso - Miss Bila Ortiz",
 	"winner": "Grêmio"
 }, {
 	"id": 409,
@@ -6949,7 +6966,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 410,
@@ -6966,7 +6983,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 411,
@@ -6983,7 +7000,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 412,
@@ -7000,7 +7017,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 413,
@@ -7017,7 +7034,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Abaixo-assinado para Kluwe voltar",
 	"winner": "Internacional"
 }, {
 	"id": 414,
@@ -7034,7 +7051,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Jogo não terminou - cancelado por motivos de segurança quando o Grêmio vencia por 1x0 (gol de Garibotti de penalti)",
 	"winner": "Grêmio"
 }, {
 	"id": 415,
@@ -7051,7 +7068,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 416,
@@ -7068,7 +7085,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 417,
@@ -7085,7 +7102,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Internacional"
 }, {
 	"id": 418,
@@ -7102,7 +7119,7 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "1a. vitoria Internacional",
 	"winner": "Internacional"
 }, {
 	"id": 419,
@@ -7119,7 +7136,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 420,
@@ -7136,7 +7153,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 421,
@@ -7153,7 +7170,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Não existem registros sobre os autores destes gols",
 	"winner": "Grêmio"
 }, {
 	"id": 422,
@@ -7170,7 +7187,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "Não existem registros sobre os autores destes gols",
 	"winner": "Grêmio"
 }, {
 	"id": 423,
@@ -7187,7 +7204,7 @@
 	"tournamentId": 10,
 	"tournament": "Citadino Porto Alegre",
 	"link": "",
-	"info": "",
+	"info": "SEM INFO",
 	"winner": "Grêmio"
 }, {
 	"id": 424,
@@ -7204,6 +7221,6 @@
 	"tournamentId": 9,
 	"tournament": "Amistoso",
 	"link": "",
-	"info": "",
+	"info": "1o. Gre-Nal, Booth é o autor do primeiro gol e também o primeiro a tocar na bola em um clássico",
 	"winner": "Grêmio"
 }]

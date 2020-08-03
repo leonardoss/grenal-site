@@ -9,6 +9,8 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
+import RightColumn from '../RightColumn';
+
 export const siteTitle = 'Grenal.site - Histórico, estatísticas, artilheiros';
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -34,7 +36,7 @@ const useStyles = makeStyles((theme) =>
 export default function Layout({ children, home }) {
   const classes = useStyles();
 
-  console.log('##### 3 - Layout ');
+  // console.log('#####  3 - Layout ');
 
   return (
     <>
@@ -71,7 +73,9 @@ export default function Layout({ children, home }) {
               <Paper className={classes.paper}>{children}</Paper>
             </Grid>
             <Grid item xs={12} md={4} lg={3}>
-              <Paper className={classes.paper}>right column</Paper>
+              <Paper className={classes.paper}>
+                <RightColumn />
+              </Paper>
             </Grid>
           </Grid>
         </Container>
