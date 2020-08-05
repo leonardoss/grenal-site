@@ -1,5 +1,5 @@
 // export { default } from './EnhancedTable';
-import React from 'react';
+import React, { useEffect } from 'react';
 import MUIDataTable from 'mui-datatables';
 import Router from 'next/router';
 
@@ -7,7 +7,7 @@ import moment from 'moment';
 import { replaceSpecialChars } from '../../utils/utils';
 
 const Matches = (props) => {
-  const { matches, colors } = props;
+  const { matches, teamsConfig, getWinners, inputEl } = props;
 
   const columns = [
     {
@@ -98,7 +98,7 @@ const Matches = (props) => {
     },
     {
       name: 'tournament',
-      label: 'Torneio',
+      label: 'Campeonato',
       options: {
         filter: true,
         sort: true,
@@ -114,7 +114,7 @@ const Matches = (props) => {
         customBodyRender: (value) => (
           <div
             style={{
-              color: colors[replaceSpecialChars(value)],
+              color: teamsConfig[replaceSpecialChars(value)]?.color,
               padding: 16,
             }}
           >
@@ -132,6 +132,32 @@ const Matches = (props) => {
     selectableRows: 'none',
     onRowClick: (rowData) => {
       Router.push(`/jogos/${rowData[0]}`);
+    },
+    onFilterChange: (
+      columnChanged,
+      filterList,
+      type,
+      changedColumnIndex,
+      displayData
+    ) => {
+      let winners;
+      if (type === 'reset') {
+        winners = getWinners(matches, true);
+
+        inputEl.current.chartInstance.config.data.datasets[0].data = winners;
+        inputEl.current.chartInstance.update();
+      }
+      if (displayData) {
+        let arrayFilter = [];
+
+        for (const key in Object.entries(displayData)) {
+          arrayFilter.push(displayData[key].data[0]);
+        }
+
+        winners = getWinners(matches, true, arrayFilter);
+        inputEl.current.chartInstance.config.data.datasets[0].data = winners;
+        inputEl.current.chartInstance.update();
+      }
     },
     textLabels: {
       body: {
@@ -168,6 +194,10 @@ const Matches = (props) => {
       },
     },
   };
+
+  // useEffect(() => {
+  //   console.log('##### inputEl ', inputEl);
+  // });
 
   return (
     <MUIDataTable

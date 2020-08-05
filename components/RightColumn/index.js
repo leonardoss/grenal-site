@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
+import 'chartjs-plugin-datalabels';
 
-import MOCK_DATA from '../../mock/matches.json';
+import Paper from '@material-ui/core/Paper';
 
-const data = {
-  labels: ['Red', 'Green', 'Yellow'],
-  datasets: [
-    {
-      data: [300, 50, 100],
-      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-      hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-    },
-  ],
-};
+import { replaceSpecialChars } from '../../utils/utils';
+import { Typography } from '@material-ui/core';
 
-const RightColumn = () => {
-  return <Doughnut data={data} />;
+const RightColumn = (props) => {
+  const { matches, inputEl, getWinners, getGoals } = props;
+  // const inputEl = useRef(null);
+
+  // useEffect(() => {
+  //   console.log('##### inputEl ', inputEl);
+  // });
+  return (
+    <>
+      <Paper elevation={0}>
+        <Typography variant="h6">Vitórias </Typography>
+        <br />
+        <Doughnut
+          // ref={(reference) => (this.chartReference = reference)}
+          ref={inputEl}
+          data={getWinners(matches)}
+        />
+      </Paper>
+      <Paper elevation={0}>
+        <Typography variant="h6">Gols</Typography>
+        <br />
+        <Doughnut data={getGoals(matches)} />
+      </Paper>
+    </>
+  );
 };
 
 export default RightColumn;

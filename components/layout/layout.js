@@ -5,27 +5,13 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-
-import RightColumn from '../RightColumn';
 
 export const siteTitle = 'Grenal.site - Histórico, estatísticas, artilheiros';
 const useStyles = makeStyles((theme) =>
   createStyles({
-    root: {
-      // display: 'flex',
-    },
     rightAlign: {
       marginLeft: 'auto',
       marginRight: -12,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      display: 'flex',
-      overflow: 'auto',
-      flexDirection: 'column',
     },
     content: {
       paddingTop: 20,
@@ -35,8 +21,6 @@ const useStyles = makeStyles((theme) =>
 
 export default function Layout({ children, home }) {
   const classes = useStyles();
-
-  // console.log('#####  3 - Layout ');
 
   return (
     <>
@@ -66,20 +50,7 @@ export default function Layout({ children, home }) {
           </div>
         </Toolbar>
       </AppBar>
-      <main className={classes.content}>
-        <Container maxWidth={false} className={classes.container}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} md={8} lg={9}>
-              <Paper className={classes.paper}>{children}</Paper>
-            </Grid>
-            <Grid item xs={12} md={4} lg={3}>
-              <Paper className={classes.paper}>
-                <RightColumn />
-              </Paper>
-            </Grid>
-          </Grid>
-        </Container>
-      </main>
+      <main className={classes.content}>{children}</main>
     </>
   );
 }

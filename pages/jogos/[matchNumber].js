@@ -95,9 +95,6 @@ const Match = (props) => {
   const router = useRouter();
   const { matchNumber } = router.query;
 
-  // console.log('##### matchNumb  er    ', matchNumber);
-  // console.log('##### awayScore   ', awayScore);
-
   const getGoals = (type) =>
     MOCK_DATA_GOALS.map((goal) =>
       type === goal.type ? (
