@@ -1,4 +1,3 @@
-// export { default } from './EnhancedTable';
 import React, { useEffect } from 'react';
 import MUIDataTable from 'mui-datatables';
 import Router from 'next/router';
@@ -7,7 +6,7 @@ import moment from 'moment';
 import { replaceSpecialChars } from '../../utils/utils';
 
 const Matches = (props) => {
-  const { matches, teamsConfig, getWinners, inputEl } = props;
+  const { matches, teamsConfig, getWinners, getGoals, chartWinners, chartGoals } = props;
 
   const columns = [
     {
@@ -140,12 +139,12 @@ const Matches = (props) => {
       changedColumnIndex,
       displayData
     ) => {
-      let winners;
       if (type === 'reset') {
-        winners = getWinners(matches, true);
+        chartWinners.current.chartInstance.config.data.datasets[0].data = getWinners(matches, true);
+        chartWinners.current.chartInstance.update();
 
-        inputEl.current.chartInstance.config.data.datasets[0].data = winners;
-        inputEl.current.chartInstance.update();
+        chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(matches, true);
+        chartGoals.current.chartInstance.update();
       }
       if (displayData) {
         let arrayFilter = [];
@@ -154,9 +153,12 @@ const Matches = (props) => {
           arrayFilter.push(displayData[key].data[0]);
         }
 
-        winners = getWinners(matches, true, arrayFilter);
-        inputEl.current.chartInstance.config.data.datasets[0].data = winners;
-        inputEl.current.chartInstance.update();
+        chartWinners.current.chartInstance.config.data.datasets[0].data = getWinners(matches, true, arrayFilter);
+        chartWinners.current.chartInstance.update();
+
+        console.log('##### chartGoals ', chartGoals, getGoals(matches, true, arrayFilter));
+        chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(matches, true, arrayFilter);
+        chartGoals.current.chartInstance.update();
       }
     },
     textLabels: {
@@ -196,7 +198,7 @@ const Matches = (props) => {
   };
 
   // useEffect(() => {
-  //   console.log('##### inputEl ', inputEl);
+  //   console.log('##### chartWinners ', chartWinners);
   // });
 
   return (

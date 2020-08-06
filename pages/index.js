@@ -15,10 +15,6 @@ import MATCHES_QUERY from '../graphql/matches.query';
 
 import MOCK_DATA from '../mock/matches.json';
 
-// const colors = {
-//   gremio: '#4169e1',
-//   internacional: '#f44336',
-// };
 const teamsConfig = {
   gremio: {
     name: 'Grêmio',
@@ -39,10 +35,11 @@ const teamsConfig = {
     secondaryColor: '#333',
   },
 };
+
 const getLabels = (withDraw = false) => {
   let labels = [];
+  console.log('##### withDraw', withDraw);
   for (let key in teamsConfig) {
-    // console.log('##### teamsConfig[key]', teamsConfig[key]);
     if (teamsConfig[key].slug == 'empate') {
       if (withDraw) {
         labels.push(teamsConfig[key].name);
@@ -70,39 +67,59 @@ const getHoverColors = () => {
   return labels;
 };
 
-const getGoals = (matches) => {
+const getGoals = (matches, isFilter = false, arrayFilter) => {
   let array = [0, 0, 0];
   matches.map((match) => {
-    if (match.homeTeam === 'Grêmio') {
-      array[0] += match.homeScore;
-    } else if (match.awayTeam === 'Grêmio') {
-      array[0] += match.awayScore;
-    }
-    if (match.homeTeam === 'Internacional') {
-      array[1] += match.homeScore;
-    } else if (match.awayTeam === 'Internacional') {
-      array[1] += match.awayScore;
+    if (arrayFilter) {
+      if (arrayFilter.indexOf(match.number) != -1) {
+        if (match.homeTeam === 'Grêmio') {
+          array[0] += match.homeScore;
+        } else if (match.awayTeam === 'Grêmio') {
+          array[0] += match.awayScore;
+        }
+        if (match.homeTeam === 'Internacional') {
+          array[1] += match.homeScore;
+        } else if (match.awayTeam === 'Internacional') {
+          array[1] += match.awayScore;
+        }
+      }
+    } else {
+      if (match.homeTeam === 'Grêmio') {
+        array[0] += match.homeScore;
+      } else if (match.awayTeam === 'Grêmio') {
+        array[0] += match.awayScore;
+      }
+      if (match.homeTeam === 'Internacional') {
+        array[1] += match.homeScore;
+      } else if (match.awayTeam === 'Internacional') {
+        array[1] += match.awayScore;
+      }
     }
   });
 
-  return {
-    labels: getLabels(teamsConfig),
-    datasets: [
-      {
-        data: array,
-        backgroundColor: getColors(teamsConfig),
-        hoverBackgroundColor: getHoverColors(teamsConfig),
-        datalabels: {
-          display: true,
-          color: 'white',
-          font: {
-            weight: 'bold',
+  if (isFilter) {
+    return array;
+  } else {
+    return {
+      labels: getLabels(),
+      datasets: [
+        {
+          data: array,
+          backgroundColor: getColors(teamsConfig),
+          hoverBackgroundColor: getHoverColors(teamsConfig),
+          datalabels: {
+            display: true,
+            color: 'white',
+            font: {
+              weight: 'bold',
+            },
           },
         },
-      },
-    ],
-  };
+      ],
+    };
+  }
 };
+
 const getWinners = (matches, isFilter = false, arrayFilter) => {
   let array = [0, 0, 0];
   matches.map((match) => {
@@ -130,7 +147,7 @@ const getWinners = (matches, isFilter = false, arrayFilter) => {
     return array;
   } else {
     return {
-      labels: getLabels(teamsConfig, true),
+      labels: getLabels(true),
       datasets: [
         {
           data: array,
@@ -148,6 +165,7 @@ const getWinners = (matches, isFilter = false, arrayFilter) => {
     };
   }
 };
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
@@ -172,9 +190,8 @@ const useStyles = makeStyles((theme) =>
 export default function Home() {
   const matches = MOCK_DATA;
   const classes = useStyles();
-  const inputEl = useRef(null);
-
-  // console.log('##### 2 - Home');
+  const chartWinners = useRef(null);
+  const chartGoals = useRef(null);
 
   // const classes = useStyles();
   // Create a query hook
@@ -198,8 +215,10 @@ export default function Home() {
           <Grid item xs={12} md={8} lg={9}>
             <Paper className={classes.paper}>
               <Matches
-                inputEl={inputEl}
+                chartWinners={chartWinners}
+                chartGoals={chartGoals}
                 matches={matches}
+                getGoals={getGoals}
                 getWinners={getWinners}
                 teamsConfig={teamsConfig}
               />
@@ -208,12 +227,9 @@ export default function Home() {
           <Grid item xs={12} md={4} lg={3}>
             <Paper className={classes.paper}>
               <RightColumn
-                inputEl={inputEl}
+                chartWinners={chartWinners}
+                chartGoals={chartGoals}
                 matches={matches}
-                // teamsConfig={teamsConfig}
-                // getLabels={getLabels}
-                // getColors={getColors}
-                // getHoverColors={getHoverColors}
                 getGoals={getGoals}
                 getWinners={getWinners}
               />
