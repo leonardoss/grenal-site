@@ -6,7 +6,14 @@ import moment from 'moment';
 import { replaceSpecialChars } from '../../utils/utils';
 
 const Matches = (props) => {
-  const { matches, teamsConfig, getWinners, getGoals, chartWinners, chartGoals } = props;
+  const {
+    matches,
+    teamsConfig,
+    getVictories,
+    getGoals,
+    chartVictories,
+    chartGoals,
+  } = props;
 
   const columns = [
     {
@@ -27,7 +34,7 @@ const Matches = (props) => {
     },
     {
       name: 'homeScore',
-      label: 'Placar m.',
+      label: 'Placar',
       options: {
         filter: false,
         sort: true,
@@ -35,7 +42,7 @@ const Matches = (props) => {
     },
     {
       name: 'awayScore',
-      label: 'Placar v.',
+      label: 'Placar',
       options: {
         filter: false,
         sort: true,
@@ -140,10 +147,16 @@ const Matches = (props) => {
       displayData
     ) => {
       if (type === 'reset') {
-        chartWinners.current.chartInstance.config.data.datasets[0].data = getWinners(matches, true);
-        chartWinners.current.chartInstance.update();
+        chartVictories.current.chartInstance.config.data.datasets[0].data = getVictories(
+          matches,
+          true
+        );
+        chartVictories.current.chartInstance.update();
 
-        chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(matches, true);
+        chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(
+          matches,
+          true
+        );
         chartGoals.current.chartInstance.update();
       }
       if (displayData) {
@@ -153,11 +166,23 @@ const Matches = (props) => {
           arrayFilter.push(displayData[key].data[0]);
         }
 
-        chartWinners.current.chartInstance.config.data.datasets[0].data = getWinners(matches, true, arrayFilter);
-        chartWinners.current.chartInstance.update();
+        chartVictories.current.chartInstance.config.data.datasets[0].data = getVictories(
+          matches,
+          true,
+          arrayFilter
+        );
+        chartVictories.current.chartInstance.update();
 
-        console.log('##### chartGoals ', chartGoals, getGoals(matches, true, arrayFilter));
-        chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(matches, true, arrayFilter);
+        console.log(
+          '##### chartGoals ',
+          chartGoals,
+          getGoals(matches, true, arrayFilter)
+        );
+        chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(
+          matches,
+          true,
+          arrayFilter
+        );
         chartGoals.current.chartInstance.update();
       }
     },
@@ -198,7 +223,7 @@ const Matches = (props) => {
   };
 
   // useEffect(() => {
-  //   console.log('##### chartWinners ', chartWinners);
+  //   console.log('##### chartVictories ', chartVictories);
   // });
 
   return (

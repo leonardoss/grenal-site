@@ -6,9 +6,13 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import { Typography } from '@material-ui/core';
+import { Doughnut } from 'react-chartjs-2';
+import 'chartjs-plugin-datalabels';
 
 import Matches from '../components/Matches';
 import RightColumn from '../components/RightColumn';
+import WidgetChart from '../components/Widgets/Chart';
 
 import { useQuery } from '@apollo/react-hooks';
 import MATCHES_QUERY from '../graphql/matches.query';
@@ -38,7 +42,6 @@ const teamsConfig = {
 
 const getLabels = (withDraw = false) => {
   let labels = [];
-  console.log('##### withDraw', withDraw);
   for (let key in teamsConfig) {
     if (teamsConfig[key].slug == 'empate') {
       if (withDraw) {
@@ -67,33 +70,30 @@ const getHoverColors = () => {
   return labels;
 };
 
+const sumGoals = (match, array) => {
+  if (match.homeTeam === 'Grêmio') {
+    array[0] += match.homeScore;
+  } else if (match.awayTeam === 'Grêmio') {
+    array[0] += match.awayScore;
+  }
+  if (match.homeTeam === 'Internacional') {
+    array[1] += match.homeScore;
+  } else if (match.awayTeam === 'Internacional') {
+    array[1] += match.awayScore;
+  }
+
+  return array;
+};
+
 const getGoals = (matches, isFilter = false, arrayFilter) => {
   let array = [0, 0, 0];
   matches.map((match) => {
     if (arrayFilter) {
       if (arrayFilter.indexOf(match.number) != -1) {
-        if (match.homeTeam === 'Grêmio') {
-          array[0] += match.homeScore;
-        } else if (match.awayTeam === 'Grêmio') {
-          array[0] += match.awayScore;
-        }
-        if (match.homeTeam === 'Internacional') {
-          array[1] += match.homeScore;
-        } else if (match.awayTeam === 'Internacional') {
-          array[1] += match.awayScore;
-        }
+        array = sumGoals(match, array);
       }
     } else {
-      if (match.homeTeam === 'Grêmio') {
-        array[0] += match.homeScore;
-      } else if (match.awayTeam === 'Grêmio') {
-        array[0] += match.awayScore;
-      }
-      if (match.homeTeam === 'Internacional') {
-        array[1] += match.homeScore;
-      } else if (match.awayTeam === 'Internacional') {
-        array[1] += match.awayScore;
-      }
+      array = sumGoals(match, array);
     }
   });
 
@@ -120,27 +120,26 @@ const getGoals = (matches, isFilter = false, arrayFilter) => {
   }
 };
 
-const getWinners = (matches, isFilter = false, arrayFilter) => {
+const sumVictories = (winner, array) => {
+  if (winner === 'Grêmio') {
+    array[0]++;
+  } else if (winner === 'Internacional') {
+    array[1]++;
+  } else {
+    array[2]++;
+  }
+  return array;
+};
+
+const getVictories = (matches, isFilter = false, arrayFilter) => {
   let array = [0, 0, 0];
   matches.map((match) => {
     if (arrayFilter) {
       if (arrayFilter.indexOf(match.number) != -1) {
-        if (match.winner === 'Grêmio') {
-          array[0]++;
-        } else if (match.winner === 'Internacional') {
-          array[1]++;
-        } else {
-          array[2]++;
-        }
+        array = sumVictories(match.winner, array);
       }
     } else {
-      if (match.winner === 'Grêmio') {
-        array[0]++;
-      } else if (match.winner === 'Internacional') {
-        array[1]++;
-      } else {
-        array[2]++;
-      }
+      array = sumVictories(match.winner, array);
     }
   });
   if (isFilter) {
@@ -190,7 +189,7 @@ const useStyles = makeStyles((theme) =>
 export default function Home() {
   const matches = MOCK_DATA;
   const classes = useStyles();
-  const chartWinners = useRef(null);
+  const chartVictories = useRef(null);
   const chartGoals = useRef(null);
 
   // const classes = useStyles();
@@ -208,32 +207,44 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle} - title index </title>
+        <title>{siteTitle} - title index</title>
       </Head>
       <Container maxWidth={false} className={classes.container}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={8} lg={9}>
-            <Paper className={classes.paper}>
-              <Matches
-                chartWinners={chartWinners}
-                chartGoals={chartGoals}
-                matches={matches}
-                getGoals={getGoals}
-                getWinners={getWinners}
-                teamsConfig={teamsConfig}
-              />
-            </Paper>
+            <Grid container item md={12}>
+              <Grid item md={6}>
+                <WidgetChart
+                  title={'Vitórias'}
+                  matches={matches}
+                  chart={chartVictories}
+                  getData={getVictories}
+                />
+              </Grid>
+              <Grid item md={6}>
+                <WidgetChart
+                  title={'Gols'}
+                  matches={matches}
+                  chart={chartGoals}
+                  getData={getGoals}
+                />
+              </Grid>
+            </Grid>
+            <Grid item xs={12}>
+              <Paper className={classes.paper}>
+                <Matches
+                  chartVictories={chartVictories}
+                  chartGoals={chartGoals}
+                  matches={matches}
+                  getGoals={getGoals}
+                  getVictories={getVictories}
+                  teamsConfig={teamsConfig}
+                />
+              </Paper>
+            </Grid>
           </Grid>
           <Grid item xs={12} md={4} lg={3}>
-            <Paper className={classes.paper}>
-              <RightColumn
-                chartWinners={chartWinners}
-                chartGoals={chartGoals}
-                matches={matches}
-                getGoals={getGoals}
-                getWinners={getWinners}
-              />
-            </Paper>
+            <RightColumn matches={matches} getVictories={getVictories} />
           </Grid>
         </Grid>
       </Container>

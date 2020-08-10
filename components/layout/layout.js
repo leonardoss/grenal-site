@@ -16,6 +16,9 @@ const useStyles = makeStyles((theme) =>
     content: {
       paddingTop: 20,
     },
+    logo: {
+      marginRight: '4px',
+    },
   })
 );
 
@@ -42,10 +45,23 @@ export default function Layout({ children, home }) {
       </Head>
       <AppBar position="relative">
         <Toolbar>
-          <Typography variant="h5">Grenal.site</Typography>
+          <img
+            src={`/gremio.svg`}
+            height={30}
+            width={30}
+            className={classes.logo}
+          />
+          <img
+            src={`/internacional.svg`}
+            height={30}
+            width={30}
+            className={classes.logo}
+          />
+          <Typography variant="h5">grenal</Typography>
+
           <div className={classes.rightAlign}>
             <Typography variant="subtitle1">
-              Histórico, estatísticas, artilheiros
+              histórico, estatísticas, artilheiros
             </Typography>
           </div>
         </Toolbar>

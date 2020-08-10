@@ -6,18 +6,20 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { createMuiTheme } from '@material-ui/core/styles';
 
-import orange from '@material-ui/core/colors/orange';
-
-import 'fontsource-roboto';
+import 'fontsource-raleway';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: orange[300],
-      main: orange[700],
+      light: '#78909c',
+      main: '#607d8b',
+      dark: '#455a64',
+    },
+    secondary: {
+      main: '#FDD835',
     },
   },
   typography: {
-    fontFamily: 'Roboto',
+    fontFamily: 'Raleway',
     fontSize: 16,
     h5: {
       fontWeight: 700,

@@ -2888,6 +2888,11 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+fontsource-raleway@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/fontsource-raleway/-/fontsource-raleway-3.0.3.tgz#df787d921a296bd1c6c18a73d6276ceb7f74a4ca"
+  integrity sha512-ZhtjGOC1OuWJKWtUetJW9aFGWKjHE8/Aj1f4xNSuZDYBo6BmR5lL1fo3H4H96rHHtxxz+J7OU/XajAxAFcYXAw==
+
 fontsource-roboto@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/fontsource-roboto/-/fontsource-roboto-2.2.3.tgz#94f545b869f7083bc9ce098fb3ec8e8cdaa66247"
