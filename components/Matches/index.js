@@ -3,9 +3,10 @@ import MUIDataTable from 'mui-datatables';
 import Router from 'next/router';
 
 import moment from 'moment';
-import { replaceSpecialChars } from '../../utils/utils';
+import { replaceSpecialChars, getYear } from '../../utils/utils';
 
 const Matches = (props) => {
+  console.log('##### props', props);
   const {
     matches,
     teamsConfig,
@@ -80,7 +81,7 @@ const Matches = (props) => {
             '2020',
           ],
           logic(date, filterVal) {
-            const year = date.replace(/[0-9]{2}\/[0-9]{2}\/([0-9]{4})/g, '$1');
+            const year = getYear(date);
             const decade = Math.floor(year / 10) * 10;
 
             if (filterVal.indexOf(decade.toString()) >= 0) {
@@ -117,16 +118,19 @@ const Matches = (props) => {
       options: {
         filter: true,
         sort: false,
-        customBodyRender: (value) => (
-          <div
-            style={{
-              color: teamsConfig[replaceSpecialChars(value)]?.color,
-              padding: 16,
-            }}
-          >
-            {value}
-          </div>
-        ),
+        customBodyRender: (value) => {
+          console.log('##### value', value);
+          return (
+            <div
+              style={{
+                color: teamsConfig[replaceSpecialChars(value)]?.color,
+                padding: 16,
+              }}
+            >
+              {value}
+            </div>
+          );
+        },
       },
     },
   ];
@@ -173,11 +177,6 @@ const Matches = (props) => {
         );
         chartVictories.current.chartInstance.update();
 
-        console.log(
-          '##### chartGoals ',
-          chartGoals,
-          getGoals(matches, true, arrayFilter)
-        );
         chartGoals.current.chartInstance.config.data.datasets[0].data = getGoals(
           matches,
           true,
@@ -221,10 +220,6 @@ const Matches = (props) => {
       },
     },
   };
-
-  // useEffect(() => {
-  //   console.log('##### chartVictories ', chartVictories);
-  // });
 
   return (
     <MUIDataTable

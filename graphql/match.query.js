@@ -1,8 +1,8 @@
 import gql from 'graphql-tag';
 
 const MATCHES_QUERY = gql`
-  query {
-    matches {
+  query Match($matchId: ID) {
+    match(id: $matchId) {
       id
       homeTeamId
       homeTeam
@@ -18,7 +18,10 @@ const MATCHES_QUERY = gql`
       tournament
       link
       info
-      winner
+      goal {
+        nickname
+        type
+      }
     }
   }
 `;

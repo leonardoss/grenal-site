@@ -18,4 +18,6 @@ const hexToRgb = (hex) =>
     .match(/.{2}/g)
     .map((x) => parseInt(x, 16));
 
-export { replaceSpecialChars, hexToRgb };
+const getYear = (date) => date.replace(/[0-9]{2}\/[0-9]{2}\/([0-9]{4})/g, '$1');
+
+export { replaceSpecialChars, hexToRgb, getYear };

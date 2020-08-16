@@ -2893,11 +2893,6 @@ fontsource-raleway@^3.0.3:
   resolved "https://registry.yarnpkg.com/fontsource-raleway/-/fontsource-raleway-3.0.3.tgz#df787d921a296bd1c6c18a73d6276ceb7f74a4ca"
   integrity sha512-ZhtjGOC1OuWJKWtUetJW9aFGWKjHE8/Aj1f4xNSuZDYBo6BmR5lL1fo3H4H96rHHtxxz+J7OU/XajAxAFcYXAw==
 
-fontsource-roboto@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/fontsource-roboto/-/fontsource-roboto-2.2.3.tgz#94f545b869f7083bc9ce098fb3ec8e8cdaa66247"
-  integrity sha512-TKeNnTi8wCz3K0FQWp6EkL2vqGpKEi1fSnR6hXhyvz1HZl/ChRDbfaooFNXolicRsG0owO8elh9lEH3E1niuYQ==
-
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3700,6 +3695,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
+
+loadash@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/loadash/-/loadash-1.0.0.tgz#b92e54d809f3c225f4f9a9cfbaeae5b56de1ca9f"
+  integrity sha512-xlX5HBsXB3KG0FJbJJG/3kYWCfsCyCSus3T+uHVu6QL6YxAdggmm3QeyLgn54N2yi5/UE6xxL5ZWJAAiHzHYEg==
 
 loader-runner@^2.4.0:
   version "2.4.0"

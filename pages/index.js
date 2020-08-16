@@ -6,13 +6,12 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import { Typography } from '@material-ui/core';
-import { Doughnut } from 'react-chartjs-2';
 import 'chartjs-plugin-datalabels';
 
 import Matches from '../components/Matches';
 import RightColumn from '../components/RightColumn';
 import WidgetChart from '../components/Widgets/Chart';
+import WidgetVictoriesEvolution from '../components/Widgets/VictoriesEvolution';
 
 import { useQuery } from '@apollo/react-hooks';
 import MATCHES_QUERY from '../graphql/matches.query';
@@ -187,22 +186,23 @@ const useStyles = makeStyles((theme) =>
 );
 
 export default function Home() {
-  const matches = MOCK_DATA;
+  // const matches = MOCK_DATA;
   const classes = useStyles();
   const chartVictories = useRef(null);
   const chartGoals = useRef(null);
 
-  // const classes = useStyles();
-  // Create a query hook
-  // const { data, loading, error } = useQuery(MATCHES_QUERY);
+  const { data, loading, error } = useQuery(MATCHES_QUERY);
+  const matches = data?.matches;
 
-  // if (loading) {
-  //   return <p>Loading...</p>;
-  // }
+  console.log('##### matches', matches);
 
-  // if (error) {
-  //   return <p>Error: {JSON.stringify(error)}</p>;
-  // }
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p>Error: {JSON.stringify(error)}</p>;
+  }
 
   return (
     <Layout home>
@@ -211,25 +211,7 @@ export default function Home() {
       </Head>
       <Container maxWidth={false} className={classes.container}>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={8} lg={9}>
-            <Grid container item md={12}>
-              <Grid item md={6}>
-                <WidgetChart
-                  title={'Vitórias'}
-                  matches={matches}
-                  chart={chartVictories}
-                  getData={getVictories}
-                />
-              </Grid>
-              <Grid item md={6}>
-                <WidgetChart
-                  title={'Gols'}
-                  matches={matches}
-                  chart={chartGoals}
-                  getData={getGoals}
-                />
-              </Grid>
-            </Grid>
+          <Grid item xs={12} md={9}>
             <Grid item xs={12}>
               <Paper className={classes.paper}>
                 <Matches
@@ -242,9 +224,29 @@ export default function Home() {
                 />
               </Paper>
             </Grid>
+            <Grid item xs={12}>
+              <WidgetVictoriesEvolution
+                matches={matches}
+                getVictories={getVictories}
+              />
+            </Grid>
           </Grid>
-          <Grid item xs={12} md={4} lg={3}>
-            <RightColumn matches={matches} getVictories={getVictories} />
+          <Grid item xs={12} md={3}>
+            <RightColumn />
+            <Grid item xs={12}>
+              <WidgetChart
+                title={'Vitórias'}
+                matches={matches}
+                chart={chartVictories}
+                getData={getVictories}
+              />
+              <WidgetChart
+                title={'Gols'}
+                matches={matches}
+                chart={chartGoals}
+                getData={getGoals}
+              />
+            </Grid>
           </Grid>
         </Grid>
       </Container>

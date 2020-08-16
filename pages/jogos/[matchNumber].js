@@ -8,9 +8,16 @@ import { replaceSpecialChars } from '../../utils/utils';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
 
-import MOCK_DATA_MATCH from '../../mock/match.json';
-import MOCK_DATA_GOALS from '../../mock/match_goals.json';
+import RightColumn from '../../components/RightColumn';
+
+// import MOCK_DATA_MATCH from '../../mock/match.json';
+// import MOCK_DATA_GOALS from '../../mock/match_goals.json';
+
+import { useQuery } from '@apollo/react-hooks';
+import MATCH_QUERY from '../../graphql/match.query';
 
 const useStyles = makeStyles({
   root: {
@@ -73,6 +80,32 @@ const useStyles = makeStyles({
 });
 
 const Match = (props) => {
+  // const {
+  //   awayScore,
+  //   awayTeam,
+  //   awayTeamId,
+  //   date,
+  //   homeScore,
+  //   homeTeam,
+  //   homeTeamId,
+  //   id,
+  //   info,
+  //   link,
+  //   number,
+  //   stadiumId,
+  //   stadiumName,
+  //   tournament,
+  //   tournamentId,
+  // } = MOCK_DATA_MATCH;
+  const classes = useStyles();
+  const router = useRouter();
+  const { matchNumber } = router.query;
+
+  const { data, loading, error } = useQuery(MATCH_QUERY, {
+    variables: { matchId: matchNumber },
+  });
+
+  console.log('##### data', data?.match);
   const {
     awayScore,
     awayTeam,
@@ -89,14 +122,20 @@ const Match = (props) => {
     stadiumName,
     tournament,
     tournamentId,
-  } = MOCK_DATA_MATCH;
-  const classes = useStyles();
+    goal,
+  } = data?.match || {};
   const title = `${homeTeam} ${homeScore} x ${awayScore} ${awayTeam} - Grenal ${number} | Grenal.Site`;
-  const router = useRouter();
-  const { matchNumber } = router.query;
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p>Error: {JSON.stringify(error)}</p>;
+  }
 
   const getGoals = (type) =>
-    MOCK_DATA_GOALS.map((goal) =>
+    goal.map((goal) =>
       type === goal.type ? (
         <Typography variant="subtile1" display="block">
           {goal.nickname}
@@ -109,62 +148,71 @@ const Match = (props) => {
       <Head>
         <title>{title}</title>
       </Head>
-      <div className={classes.root}>
-        <div className={classes.header}>
-          <div className={classes.matchNumber}>
-            <Typography variant="subtitle1">
-              Grenal {number} - {stadiumName}
-              <br />
-              {tournament} - {moment(date).utc().format('DD/MM/YYYY')}
-              <br />
-              <i>{info}</i>
-            </Typography>
-          </div>
-          <div className={classes.scoreBoard}>
-            <div className={classes.scoreTeam}>
-              <Typography variant="h4">{homeTeam}</Typography>
+      <Container maxWidth={false} className={classes.container}>
+        <Grid container spacing={3}>
+          <Grid item xs={12} md={9}>
+            <div className={classes.root}>
+              <div className={classes.header}>
+                <div className={classes.matchNumber}>
+                  <Typography variant="subtitle1">
+                    Grenal {number} - {stadiumName}
+                    <br />
+                    {tournament} - {moment(date).utc().format('DD/MM/YYYY')}
+                    <br />
+                    <i>{info}</i>
+                  </Typography>
+                </div>
+                <div className={classes.scoreBoard}>
+                  <div className={classes.scoreTeam}>
+                    <Typography variant="h4">{homeTeam}</Typography>
+                  </div>
+                  <div className="logo">
+                    <img
+                      src={`/${replaceSpecialChars(homeTeam)}.svg`}
+                      alt={homeTeam}
+                      className={classes.logo}
+                    />
+                  </div>
+                  <div className={classes.scoreGoals}>
+                    <Typography variant="h3">{homeScore}</Typography>
+                  </div>
+                  <div className={classes.scoreVersus}>
+                    <Typography variant="h6">x</Typography>
+                  </div>
+                  <div className={classes.scoreGoals}>
+                    <Typography variant="h3">{awayScore}</Typography>
+                  </div>
+                  <div className="logo">
+                    <img
+                      src={`/${replaceSpecialChars(awayTeam)}.svg`}
+                      alt={awayTeam}
+                      className={classes.logo}
+                    />
+                  </div>
+                  <div className={classes.scoreTeam}>
+                    <Typography variant="h4">{awayTeam}</Typography>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.body}>
+                <div className={classes.goalsCol}>
+                  <Typography className={classes.goalsList} variant="body1">
+                    {getGoals('home')}
+                  </Typography>
+                </div>
+                <div className={classes.goalsCol}>
+                  <Typography className={classes.goalsList} variant="body1">
+                    {getGoals('away')}
+                  </Typography>
+                </div>
+              </div>
             </div>
-            <div className="logo">
-              <img
-                src={`/${replaceSpecialChars(homeTeam)}.svg`}
-                alt={homeTeam}
-                className={classes.logo}
-              />
-            </div>
-            <div className={classes.scoreGoals}>
-              <Typography variant="h3">{homeScore}</Typography>
-            </div>
-            <div className={classes.scoreVersus}>
-              <Typography variant="h6">x</Typography>
-            </div>
-            <div className={classes.scoreGoals}>
-              <Typography variant="h3">{awayScore}</Typography>
-            </div>
-            <div className="logo">
-              <img
-                src={`/${replaceSpecialChars(awayTeam)}.svg`}
-                alt={awayTeam}
-                className={classes.logo}
-              />
-            </div>
-            <div className={classes.scoreTeam}>
-              <Typography variant="h4">{awayTeam}</Typography>
-            </div>
-          </div>
-        </div>
-        <div className={classes.body}>
-          <div className={classes.goalsCol}>
-            <Typography className={classes.goalsList} variant="body1">
-              {getGoals('home')}
-            </Typography>
-          </div>
-          <div className={classes.goalsCol}>
-            <Typography className={classes.goalsList} variant="body1">
-              {getGoals('away')}
-            </Typography>
-          </div>
-        </div>
-      </div>
+          </Grid>
+          <Grid item xs={12} md={3}>
+            <RightColumn />
+          </Grid>
+        </Grid>
+      </Container>
     </Layout>
   );
 };
