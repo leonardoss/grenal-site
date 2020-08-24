@@ -185,7 +185,23 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-export default function Home() {
+export async function getStaticProps() {
+  const apolloClient = initializeApollo();
+
+  await apolloClient.query({
+    query: ALL_POSTS_QUERY,
+    variables: allPostsQueryVars,
+  });
+
+  return {
+    props: {
+      initialApolloState: apolloClient.cache.extract(),
+    },
+    revalidate: 1,
+  };
+}
+
+const IndexPage = () => {
   // const matches = MOCK_DATA;
   const classes = useStyles();
   const chartVictories = useRef(null);
@@ -252,4 +268,6 @@ export default function Home() {
       </Container>
     </Layout>
   );
-}
+};
+
+export default IndexPage;

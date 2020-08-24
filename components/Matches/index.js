@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import MUIDataTable from 'mui-datatables';
 import Router from 'next/router';
+import Link from 'next/link';
 
 import moment from 'moment';
 import { replaceSpecialChars, getYear } from '../../utils/utils';
@@ -222,12 +223,15 @@ const Matches = (props) => {
   };
 
   return (
-    <MUIDataTable
-      title={'Todos os jogos'}
-      data={matches}
-      columns={columns}
-      options={options}
-    />
+    <>
+      <Link href="jogos/420">jogo 425</Link>
+      <MUIDataTable
+        title={'Todos os jogos'}
+        data={matches}
+        columns={columns}
+        options={options}
+      />
+    </>
   );
 };
 

@@ -2,22 +2,22 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
 import moment from 'moment';
-import Layout from '../../components/layout/layout';
+import Layout from '../../../components/layout/layout';
 
-import { replaceSpecialChars } from '../../utils/utils';
+import { replaceSpecialChars } from '../../../utils/utils';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 
-import RightColumn from '../../components/RightColumn';
+import RightColumn from '../../../components/RightColumn';
 
 // import MOCK_DATA_MATCH from '../../mock/match.json';
 // import MOCK_DATA_GOALS from '../../mock/match_goals.json';
 
 import { useQuery } from '@apollo/react-hooks';
-import MATCH_QUERY from '../../graphql/match.query';
+import MATCH_QUERY from '../../../graphql/match.query';
 
 const useStyles = makeStyles({
   root: {
@@ -135,9 +135,9 @@ const Match = (props) => {
   }
 
   const getGoals = (type) =>
-    goal.map((goal) =>
+    goal.map((index, goal) =>
       type === goal.type ? (
-        <Typography variant="subtile1" display="block">
+        <Typography variant="subtile1" display="block" key={index}>
           {goal.nickname}
         </Typography>
       ) : null
