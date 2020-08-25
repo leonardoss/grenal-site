@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
 import moment from 'moment';
@@ -13,11 +12,9 @@ import Grid from '@material-ui/core/Grid';
 
 import RightColumn from '../../../components/RightColumn';
 
-// import MOCK_DATA_MATCH from '../../mock/match.json';
-// import MOCK_DATA_GOALS from '../../mock/match_goals.json';
-
-import { useQuery } from '@apollo/react-hooks';
 import MATCH_QUERY from '../../../graphql/match.query';
+import MATCHES_QUERY from '../../../graphql/matches.query';
+import { initializeApollo } from '../../../utils/apollo-client';
 
 const useStyles = makeStyles({
   root: {
@@ -79,33 +76,38 @@ const useStyles = makeStyles({
   },
 });
 
-const Match = (props) => {
-  // const {
-  //   awayScore,
-  //   awayTeam,
-  //   awayTeamId,
-  //   date,
-  //   homeScore,
-  //   homeTeam,
-  //   homeTeamId,
-  //   id,
-  //   info,
-  //   link,
-  //   number,
-  //   stadiumId,
-  //   stadiumName,
-  //   tournament,
-  //   tournamentId,
-  // } = MOCK_DATA_MATCH;
-  const classes = useStyles();
-  const router = useRouter();
-  const { matchNumber } = router.query;
-
-  const { data, loading, error } = useQuery(MATCH_QUERY, {
-    variables: { matchId: matchNumber },
+export async function getStaticProps({ params }) {
+  const apolloClient = initializeApollo();
+  const { data } = await apolloClient.query({
+    query: MATCH_QUERY,
+    variables: { matchId: params.matchNumber },
   });
 
-  console.log('##### data', data?.match);
+  return {
+    props: {
+      match: data.match,
+    },
+  };
+}
+
+export async function getStaticPaths() {
+  const apolloClient = initializeApollo();
+  const { data } = await apolloClient.query({
+    query: MATCHES_QUERY,
+  });
+
+  return {
+    paths: data?.matches.map(({ number }) => ({
+      params: {
+        matchNumber: number.toString(),
+      },
+    })),
+    fallback: false,
+  };
+}
+
+const Match = (props) => {
+  const classes = useStyles();
   const {
     awayScore,
     awayTeam,
@@ -123,16 +125,16 @@ const Match = (props) => {
     tournament,
     tournamentId,
     goal,
-  } = data?.match || {};
+  } = props?.match || {};
   const title = `${homeTeam} ${homeScore} x ${awayScore} ${awayTeam} - Grenal ${number} | Grenal.Site`;
 
-  if (loading) {
-    return <p>Loading...</p>;
-  }
+  // if (loading) {
+  //   return <p>Loading...</p>;
+  // }
 
-  if (error) {
-    return <p>Error: {JSON.stringify(error)}</p>;
-  }
+  // if (error) {
+  //   return <p>Error: {JSON.stringify(error)}</p>;
+  // }
 
   const getGoals = (type) =>
     goal.map((index, goal) =>

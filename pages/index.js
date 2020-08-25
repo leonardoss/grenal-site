@@ -13,10 +13,8 @@ import RightColumn from '../components/RightColumn';
 import WidgetChart from '../components/Widgets/Chart';
 import WidgetVictoriesEvolution from '../components/Widgets/VictoriesEvolution';
 
-import { useQuery } from '@apollo/react-hooks';
 import MATCHES_QUERY from '../graphql/matches.query';
-
-import MOCK_DATA from '../mock/matches.json';
+import { initializeApollo } from '../utils/apollo-client';
 
 const teamsConfig = {
   gremio: {
@@ -185,45 +183,37 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   const apolloClient = initializeApollo();
-
-  await apolloClient.query({
-    query: ALL_POSTS_QUERY,
-    variables: allPostsQueryVars,
+  const { data } = await apolloClient.query({
+    query: MATCHES_QUERY,
   });
 
   return {
     props: {
-      initialApolloState: apolloClient.cache.extract(),
+      matches: data?.matches,
     },
-    revalidate: 1,
   };
-}
+};
 
-const IndexPage = () => {
-  // const matches = MOCK_DATA;
+const IndexPage = (props) => {
   const classes = useStyles();
   const chartVictories = useRef(null);
   const chartGoals = useRef(null);
+  const matches = props?.matches;
 
-  const { data, loading, error } = useQuery(MATCHES_QUERY);
-  const matches = data?.matches;
+  // if (loading) {
+  //   return <p>Loading...</p>;
+  // }
 
-  console.log('##### matches', matches);
-
-  if (loading) {
-    return <p>Loading...</p>;
-  }
-
-  if (error) {
-    return <p>Error: {JSON.stringify(error)}</p>;
-  }
+  // if (error) {
+  //   return <p>Error: {JSON.stringify(error)}</p>;
+  // }
 
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle} - title index</title>
+        <title>{siteTitle} - title index </title>
       </Head>
       <Container maxWidth={false} className={classes.container}>
         <Grid container spacing={3}>

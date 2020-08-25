@@ -1,6 +1,6 @@
 import React from 'react';
 import { ApolloProvider } from '@apollo/react-hooks';
-import withData from '../utils/apollo-client';
+import { useApollo } from '../utils/apollo-client';
 
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -47,12 +47,12 @@ const theme = createMuiTheme({
 
 export const siteTitle = 'Grenal.site - Histórico, estatísticas, artilheiros';
 
-const MyApp = (props) => {
-  const { Component, pageProps, apollo } = props;
+const MyApp = ({ Component, pageProps }) => {
+  const apolloClient = useApollo(pageProps.initialApolloState);
 
   return (
     <>
-      <ApolloProvider client={apollo}>
+      <ApolloProvider client={apolloClient}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Component {...pageProps} />
@@ -62,4 +62,4 @@ const MyApp = (props) => {
   );
 };
 
-export default withData(MyApp);
+export default MyApp;

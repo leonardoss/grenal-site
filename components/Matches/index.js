@@ -1,13 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import MUIDataTable from 'mui-datatables';
 import Router from 'next/router';
-import Link from 'next/link';
 
 import moment from 'moment';
 import { replaceSpecialChars, getYear } from '../../utils/utils';
 
 const Matches = (props) => {
-  console.log('##### props', props);
   const {
     matches,
     teamsConfig,
@@ -120,7 +118,6 @@ const Matches = (props) => {
         filter: true,
         sort: false,
         customBodyRender: (value) => {
-          console.log('##### value', value);
           return (
             <div
               style={{
@@ -224,7 +221,6 @@ const Matches = (props) => {
 
   return (
     <>
-      <Link href="jogos/420">jogo 425</Link>
       <MUIDataTable
         title={'Todos os jogos'}
         data={matches}

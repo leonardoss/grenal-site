@@ -1,28 +1,52 @@
-import { ApolloClient } from 'apollo-client';
-import { InMemoryCache } from 'apollo-cache-inmemory';
-import withApollo from 'next-with-apollo';
-import { createHttpLink } from 'apollo-link-http';
-import fetch from 'isomorphic-unfetch';
+import { useMemo } from 'react';
+import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client';
+import { concatPagination } from '@apollo/client/utilities';
+import fetch from 'cross-fetch';
 
-// Update the GraphQL endpoint to any instance of GraphQL that you like
-// const GRAPHQL_URL = 'http://localhost:4000/graphql';
+let apolloClient;
 const GRAPHQL_URL = 'http://gateway.grenal.site/graphql';
 
-const link = createHttpLink({
-  fetch, // Switches between unfetch & node-fetch for client & server.
-  uri: GRAPHQL_URL,
-});
+function createApolloClient() {
+  return new ApolloClient({
+    ssrMode: typeof window === 'undefined',
+    link: new HttpLink({
+      uri: GRAPHQL_URL,
+      fetch, // Server URL (must be absolute)
+      credentials: 'same-origin', // Additional fetch() options like `credentials` or `headers`
+    }),
+    cache: new InMemoryCache({
+      typePolicies: {
+        Query: {
+          fields: {
+            allPosts: concatPagination(),
+          },
+        },
+      },
+    }),
+  });
+}
 
-// Export a HOC from next-with-apollo
-// Docs: https://www.npmjs.com/package/next-with-apollo
-export default withApollo(
-  // You can get headers and ctx (context) from the callback params
-  // e.g. ({ headers, ctx, initialState })
-  ({ initialState }) =>
-    new ApolloClient({
-      link: link,
-      cache: new InMemoryCache()
-        //  rehydrate the cache using the initial data passed from the server:
-        .restore(initialState || {}),
-    })
-);
+export function initializeApollo(initialState = null) {
+  const _apolloClient = apolloClient ?? createApolloClient();
+
+  // If your page has Next.js data fetching methods that use Apollo Client, the initial state
+  // gets hydrated here
+  if (initialState) {
+    // Get existing cache, loaded during client side data fetching
+    const existingCache = _apolloClient.extract();
+    // Restore the cache using the data passed from getStaticProps/getServerSideProps
+    // combined with the existing cached data
+    _apolloClient.cache.restore({ ...existingCache, ...initialState });
+  }
+  // For SSG and SSR always create a new Apollo Client
+  if (typeof window === 'undefined') return _apolloClient;
+  // Create the Apollo Client once in the client
+  if (!apolloClient) apolloClient = _apolloClient;
+
+  return _apolloClient;
+}
+
+export function useApollo(initialState) {
+  const store = useMemo(() => initializeApollo(initialState), [initialState]);
+  return store;
+}
