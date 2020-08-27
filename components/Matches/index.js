@@ -139,7 +139,7 @@ const Matches = (props) => {
     print: false,
     selectableRows: 'none',
     onRowClick: (rowData) => {
-      Router.push(`/jogos/${rowData[0]}`);
+      Router.push(`/jogos/${rowData[0]}.html`);
     },
     onFilterChange: (
       columnChanged,

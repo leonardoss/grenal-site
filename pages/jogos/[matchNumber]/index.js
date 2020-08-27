@@ -137,7 +137,7 @@ const Match = (props) => {
   // }
 
   const getGoals = (type) =>
-    goal.map((index, goal) =>
+    goal.map((goal, index) =>
       type === goal.type ? (
         <Typography variant="subtile1" display="block" key={index}>
           {goal.nickname}
