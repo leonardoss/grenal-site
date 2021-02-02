@@ -102,8 +102,8 @@ const getGoals = (matches, isFilter = false, arrayFilter) => {
       datasets: [
         {
           data: array,
-          backgroundColor: getColors(teamsConfig),
-          hoverBackgroundColor: getHoverColors(teamsConfig),
+          backgroundColor: getColors(),
+          hoverBackgroundColor: getHoverColors(),
           datalabels: {
             display: true,
             color: 'white',
@@ -147,8 +147,8 @@ const getVictories = (matches, isFilter = false, arrayFilter) => {
       datasets: [
         {
           data: array,
-          backgroundColor: getColors(teamsConfig),
-          hoverBackgroundColor: getHoverColors(teamsConfig),
+          backgroundColor: getColors(),
+          hoverBackgroundColor: getHoverColors(),
           datalabels: {
             display: true,
             color: 'white',
@@ -215,7 +215,7 @@ const IndexPage = (props) => {
       <Head>
         <title>{siteTitle} - title index </title>
       </Head>
-      <Container maxWidth={false} className={classes.container}>
+      <Container maxWidth={false}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={9}>
             <Grid item xs={12}>

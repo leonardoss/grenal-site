@@ -4,7 +4,8 @@ import { concatPagination } from '@apollo/client/utilities';
 import fetch from 'cross-fetch';
 
 let apolloClient;
-const GRAPHQL_URL = 'http://gateway.grenal.site/graphql';
+const GRAPHQL_URL = 'https://gateway.grenal.site/graphql';
+// const GRAPHQL_URL = 'http://localhost:4000/graphql';
 
 function createApolloClient() {
   return new ApolloClient({
@@ -48,5 +49,6 @@ export function initializeApollo(initialState = null) {
 
 export function useApollo(initialState) {
   const store = useMemo(() => initializeApollo(initialState), [initialState]);
+  console.log('##### store', store);
   return store;
 }

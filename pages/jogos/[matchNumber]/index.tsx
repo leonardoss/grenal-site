@@ -51,9 +51,6 @@ const useStyles = makeStyles({
     height: 60,
     width: 60,
   },
-  goalsCol: {
-    backgroundColor: '#FF0000',
-  },
   body: {
     display: 'flex',
     flexDirection: 'row',
@@ -62,6 +59,7 @@ const useStyles = makeStyles({
     // alignItems: 'flex-start',
   },
   goalsCol: {
+    backgroundColor: '#FF0000',
     width: 300,
     paddingLeft: 80,
     '&:first-child': {
@@ -139,7 +137,7 @@ const Match = (props) => {
   const getGoals = (type) =>
     goal.map((goal, index) =>
       type === goal.type ? (
-        <Typography variant="subtile1" display="block" key={index}>
+        <Typography variant="subtitle1" display="block" key={index}>
           {goal.nickname}
         </Typography>
       ) : null
@@ -150,11 +148,11 @@ const Match = (props) => {
       <Head>
         <title>{title}</title>
       </Head>
-      <Container maxWidth={false} className={classes.container}>
+      <Container maxWidth={false}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={9}>
             <div className={classes.root}>
-              <div className={classes.header}>
+              <div>
                 <div className={classes.matchNumber}>
                   <Typography variant="subtitle1">
                     Grenal {number} - {stadiumName}
@@ -178,7 +176,7 @@ const Match = (props) => {
                   <div className={classes.scoreGoals}>
                     <Typography variant="h3">{homeScore}</Typography>
                   </div>
-                  <div className={classes.scoreVersus}>
+                  <div>
                     <Typography variant="h6">x</Typography>
                   </div>
                   <div className={classes.scoreGoals}>

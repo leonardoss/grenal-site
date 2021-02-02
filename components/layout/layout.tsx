@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link'
 
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-export default function Layout({ children, home }) {
+const Layout = ({ children, home }: any) => {
   const classes = useStyles();
 
   return (
@@ -45,18 +46,22 @@ export default function Layout({ children, home }) {
       </Head>
       <AppBar position="relative">
         <Toolbar>
-          <img
-            src={`/gremio.svg`}
-            height={30}
-            width={30}
-            className={classes.logo}
-          />
-          <img
-            src={`/internacional.svg`}
-            height={30}
-            width={30}
-            className={classes.logo}
-          />
+          <Link href="/">
+            <a>
+              <img
+                src={`/gremio.svg`}
+                height={30}
+                width={30}
+                className={classes.logo}
+              />
+              <img
+                src={`/internacional.svg`}
+                height={30}
+                width={30}
+                className={classes.logo}
+              />
+            </a>
+          </Link>
           <Typography variant="h5">grenal</Typography>
 
           <div className={classes.rightAlign}>
@@ -70,3 +75,5 @@ export default function Layout({ children, home }) {
     </>
   );
 }
+
+export default Layout;
