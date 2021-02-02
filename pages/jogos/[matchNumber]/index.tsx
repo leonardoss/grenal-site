@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import { GetStaticProps, GetStaticPaths } from 'next'
 import moment from 'moment';
 import Layout from '../../../components/layout/layout';
 
@@ -74,7 +74,7 @@ const useStyles = makeStyles({
   },
 });
 
-export async function getStaticProps({ params }) {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const apolloClient = initializeApollo();
   const { data } = await apolloClient.query({
     query: MATCH_QUERY,
@@ -88,7 +88,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const apolloClient = initializeApollo();
   const { data } = await apolloClient.query({
     query: MATCHES_QUERY,

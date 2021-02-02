@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import Head from 'next/head';
+import { GetStaticProps } from 'next'
 import Layout, { siteTitle } from '../components/layout/layout';
 
 import { makeStyles, createStyles } from '@material-ui/core/styles';
@@ -183,7 +184,7 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-export const getStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
   const apolloClient = initializeApollo();
   const { data } = await apolloClient.query({
     query: MATCHES_QUERY,
